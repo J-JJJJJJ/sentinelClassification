@@ -1,0 +1,3111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_name" for="graph" attr.name="name" attr.type="string"/>
+  <key id="g_type" for="graph" attr.name="type" attr.type="string"/>
+  <key id="g_loops" for="graph" attr.name="loops" attr.type="boolean"/>
+  <key id="g_p" for="graph" attr.name="p" attr.type="double"/>
+  <key id="v_graphName" for="node" attr.name="graphName" attr.type="string"/>
+  <key id="v_type" for="node" attr.name="type" attr.type="string"/>
+  <key id="v_community" for="node" attr.name="community" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_totalNodes" for="node" attr.name="totalNodes" attr.type="double"/>
+  <key id="v_totalEdges" for="node" attr.name="totalEdges" attr.type="double"/>
+  <key id="v_communitySize" for="node" attr.name="communitySize" attr.type="string"/>
+  <key id="v_intra-degree" for="node" attr.name="intra-degree" attr.type="string"/>
+  <key id="v_inter-degree" for="node" attr.name="inter-degree" attr.type="string"/>
+  <key id="v_intra-degree_denseRank" for="node" attr.name="intra-degree_denseRank" attr.type="string"/>
+  <key id="v_intra-degree_reverseDenseRank" for="node" attr.name="intra-degree_reverseDenseRank" attr.type="string"/>
+  <key id="v_intra-degree_percentRank" for="node" attr.name="intra-degree_percentRank" attr.type="string"/>
+  <key id="v_intra-degree_averageRank" for="node" attr.name="intra-degree_averageRank" attr.type="string"/>
+  <key id="v_intra-degree_reverseAverageRank" for="node" attr.name="intra-degree_reverseAverageRank" attr.type="string"/>
+  <key id="v_inter-degree_denseRank" for="node" attr.name="inter-degree_denseRank" attr.type="string"/>
+  <key id="v_inter-degree_reverseDenseRank" for="node" attr.name="inter-degree_reverseDenseRank" attr.type="string"/>
+  <key id="v_inter-degree_percentRank" for="node" attr.name="inter-degree_percentRank" attr.type="string"/>
+  <key id="v_inter-degree_averageRank" for="node" attr.name="inter-degree_averageRank" attr.type="string"/>
+  <key id="v_inter-degree_reverseAverageRank" for="node" attr.name="inter-degree_reverseAverageRank" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="double"/>
+  <key id="v_degree" for="node" attr.name="degree" attr.type="double"/>
+  <key id="v_betweenness" for="node" attr.name="betweenness" attr.type="double"/>
+  <key id="v_closeness" for="node" attr.name="closeness" attr.type="double"/>
+  <key id="v_pageRank" for="node" attr.name="pageRank" attr.type="double"/>
+  <key id="v_transitivity" for="node" attr.name="transitivity" attr.type="double"/>
+  <key id="v_triangleCount" for="node" attr.name="triangleCount" attr.type="double"/>
+  <key id="v_knn" for="node" attr.name="knn" attr.type="double"/>
+  <key id="v_eccentricity" for="node" attr.name="eccentricity" attr.type="double"/>
+  <key id="v_degree_denseRank" for="node" attr.name="degree_denseRank" attr.type="double"/>
+  <key id="v_degree_reverseDenseRank" for="node" attr.name="degree_reverseDenseRank" attr.type="double"/>
+  <key id="v_degree_percentRank" for="node" attr.name="degree_percentRank" attr.type="double"/>
+  <key id="v_degree_averageRank" for="node" attr.name="degree_averageRank" attr.type="double"/>
+  <key id="v_degree_reverseAverageRank" for="node" attr.name="degree_reverseAverageRank" attr.type="double"/>
+  <key id="v_betweenness_denseRank" for="node" attr.name="betweenness_denseRank" attr.type="double"/>
+  <key id="v_betweenness_reverseDenseRank" for="node" attr.name="betweenness_reverseDenseRank" attr.type="double"/>
+  <key id="v_betweenness_percentRank" for="node" attr.name="betweenness_percentRank" attr.type="double"/>
+  <key id="v_betweenness_averageRank" for="node" attr.name="betweenness_averageRank" attr.type="double"/>
+  <key id="v_betweenness_reverseAverageRank" for="node" attr.name="betweenness_reverseAverageRank" attr.type="double"/>
+  <key id="v_closeness_denseRank" for="node" attr.name="closeness_denseRank" attr.type="double"/>
+  <key id="v_closeness_reverseDenseRank" for="node" attr.name="closeness_reverseDenseRank" attr.type="double"/>
+  <key id="v_closeness_percentRank" for="node" attr.name="closeness_percentRank" attr.type="double"/>
+  <key id="v_closeness_averageRank" for="node" attr.name="closeness_averageRank" attr.type="double"/>
+  <key id="v_closeness_reverseAverageRank" for="node" attr.name="closeness_reverseAverageRank" attr.type="double"/>
+  <key id="v_pageRank_denseRank" for="node" attr.name="pageRank_denseRank" attr.type="double"/>
+  <key id="v_pageRank_reverseDenseRank" for="node" attr.name="pageRank_reverseDenseRank" attr.type="double"/>
+  <key id="v_pageRank_percentRank" for="node" attr.name="pageRank_percentRank" attr.type="double"/>
+  <key id="v_pageRank_averageRank" for="node" attr.name="pageRank_averageRank" attr.type="double"/>
+  <key id="v_pageRank_reverseAverageRank" for="node" attr.name="pageRank_reverseAverageRank" attr.type="double"/>
+  <key id="v_transitivity_denseRank" for="node" attr.name="transitivity_denseRank" attr.type="double"/>
+  <key id="v_transitivity_reverseDenseRank" for="node" attr.name="transitivity_reverseDenseRank" attr.type="double"/>
+  <key id="v_transitivity_percentRank" for="node" attr.name="transitivity_percentRank" attr.type="double"/>
+  <key id="v_transitivity_averageRank" for="node" attr.name="transitivity_averageRank" attr.type="double"/>
+  <key id="v_transitivity_reverseAverageRank" for="node" attr.name="transitivity_reverseAverageRank" attr.type="double"/>
+  <key id="v_triangleCount_denseRank" for="node" attr.name="triangleCount_denseRank" attr.type="double"/>
+  <key id="v_triangleCount_reverseDenseRank" for="node" attr.name="triangleCount_reverseDenseRank" attr.type="double"/>
+  <key id="v_triangleCount_percentRank" for="node" attr.name="triangleCount_percentRank" attr.type="double"/>
+  <key id="v_triangleCount_averageRank" for="node" attr.name="triangleCount_averageRank" attr.type="double"/>
+  <key id="v_triangleCount_reverseAverageRank" for="node" attr.name="triangleCount_reverseAverageRank" attr.type="double"/>
+  <key id="v_knn_denseRank" for="node" attr.name="knn_denseRank" attr.type="double"/>
+  <key id="v_knn_reverseDenseRank" for="node" attr.name="knn_reverseDenseRank" attr.type="double"/>
+  <key id="v_knn_percentRank" for="node" attr.name="knn_percentRank" attr.type="double"/>
+  <key id="v_knn_averageRank" for="node" attr.name="knn_averageRank" attr.type="double"/>
+  <key id="v_knn_reverseAverageRank" for="node" attr.name="knn_reverseAverageRank" attr.type="double"/>
+  <key id="v_eccentricity_denseRank" for="node" attr.name="eccentricity_denseRank" attr.type="double"/>
+  <key id="v_eccentricity_reverseDenseRank" for="node" attr.name="eccentricity_reverseDenseRank" attr.type="double"/>
+  <key id="v_eccentricity_percentRank" for="node" attr.name="eccentricity_percentRank" attr.type="double"/>
+  <key id="v_eccentricity_averageRank" for="node" attr.name="eccentricity_averageRank" attr.type="double"/>
+  <key id="v_eccentricity_reverseAverageRank" for="node" attr.name="eccentricity_reverseAverageRank" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <data key="g_name">Erdos renyi (gnp) graph</data>
+    <data key="g_type">gnp</data>
+    <data key="g_loops">false</data>
+    <data key="g_p">0.187874956211777</data>
+    <node id="n0">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n0</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">0</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">26.3</data>
+      <data key="v_closeness">0.013</data>
+      <data key="v_pageRank">0.0272</data>
+      <data key="v_transitivity">0.0476</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">30</data>
+      <data key="v_betweenness_reverseDenseRank">8</data>
+      <data key="v_betweenness_percentRank">0.82</data>
+      <data key="v_betweenness_averageRank">32</data>
+      <data key="v_betweenness_reverseAverageRank">8</data>
+      <data key="v_closeness_denseRank">13</data>
+      <data key="v_closeness_reverseDenseRank">8</data>
+      <data key="v_closeness_percentRank">0.55</data>
+      <data key="v_closeness_averageRank">22</data>
+      <data key="v_closeness_reverseAverageRank">18</data>
+      <data key="v_pageRank_denseRank">20</data>
+      <data key="v_pageRank_reverseDenseRank">13</data>
+      <data key="v_pageRank_percentRank">0.66</data>
+      <data key="v_pageRank_averageRank">26</data>
+      <data key="v_pageRank_reverseAverageRank">14</data>
+      <data key="v_transitivity_denseRank">2</data>
+      <data key="v_transitivity_reverseDenseRank">18</data>
+      <data key="v_transitivity_percentRank">0.05</data>
+      <data key="v_transitivity_averageRank">4</data>
+      <data key="v_transitivity_reverseAverageRank">36</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n1">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n1</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">1</data>
+      <data key="v_degree">9</data>
+      <data key="v_betweenness">47.2</data>
+      <data key="v_closeness">0.0139</data>
+      <data key="v_pageRank">0.0342</data>
+      <data key="v_transitivity">0.111</data>
+      <data key="v_triangleCount">4</data>
+      <data key="v_knn">6.1</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">7</data>
+      <data key="v_degree_reverseDenseRank">3</data>
+      <data key="v_degree_percentRank">0.89</data>
+      <data key="v_degree_averageRank">36</data>
+      <data key="v_degree_reverseAverageRank">4</data>
+      <data key="v_betweenness_denseRank">36</data>
+      <data key="v_betweenness_reverseDenseRank">2</data>
+      <data key="v_betweenness_percentRank">0.97</data>
+      <data key="v_betweenness_averageRank">38</data>
+      <data key="v_betweenness_reverseAverageRank">2</data>
+      <data key="v_closeness_denseRank">18</data>
+      <data key="v_closeness_reverseDenseRank">3</data>
+      <data key="v_closeness_percentRank">0.95</data>
+      <data key="v_closeness_averageRank">37</data>
+      <data key="v_closeness_reverseAverageRank">3</data>
+      <data key="v_pageRank_denseRank">30</data>
+      <data key="v_pageRank_reverseDenseRank">3</data>
+      <data key="v_pageRank_percentRank">0.95</data>
+      <data key="v_pageRank_averageRank">37</data>
+      <data key="v_pageRank_reverseAverageRank">3</data>
+      <data key="v_transitivity_denseRank">5</data>
+      <data key="v_transitivity_reverseDenseRank">15</data>
+      <data key="v_transitivity_percentRank">0.21</data>
+      <data key="v_transitivity_averageRank">9.5</data>
+      <data key="v_transitivity_reverseAverageRank">30.5</data>
+      <data key="v_triangleCount_denseRank">5</data>
+      <data key="v_triangleCount_reverseDenseRank">7</data>
+      <data key="v_triangleCount_percentRank">0.66</data>
+      <data key="v_triangleCount_averageRank">27.5</data>
+      <data key="v_triangleCount_reverseAverageRank">12.5</data>
+      <data key="v_knn_denseRank">2</data>
+      <data key="v_knn_reverseDenseRank">15</data>
+      <data key="v_knn_percentRank">0.08</data>
+      <data key="v_knn_averageRank">4</data>
+      <data key="v_knn_reverseAverageRank">36</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n2">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n2</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">2</data>
+      <data key="v_degree">3</data>
+      <data key="v_betweenness">2.9</data>
+      <data key="v_closeness">0.0101</data>
+      <data key="v_pageRank">0.0142</data>
+      <data key="v_transitivity">0.333</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">1</data>
+      <data key="v_degree_reverseDenseRank">9</data>
+      <data key="v_degree_percentRank">0</data>
+      <data key="v_degree_averageRank">1.5</data>
+      <data key="v_degree_reverseAverageRank">38.5</data>
+      <data key="v_betweenness_denseRank">2</data>
+      <data key="v_betweenness_reverseDenseRank">36</data>
+      <data key="v_betweenness_percentRank">0.03</data>
+      <data key="v_betweenness_averageRank">2</data>
+      <data key="v_betweenness_reverseAverageRank">38</data>
+      <data key="v_closeness_denseRank">1</data>
+      <data key="v_closeness_reverseDenseRank">20</data>
+      <data key="v_closeness_percentRank">0</data>
+      <data key="v_closeness_averageRank">1</data>
+      <data key="v_closeness_reverseAverageRank">39</data>
+      <data key="v_pageRank_denseRank">2</data>
+      <data key="v_pageRank_reverseDenseRank">31</data>
+      <data key="v_pageRank_percentRank">0.03</data>
+      <data key="v_pageRank_averageRank">2</data>
+      <data key="v_pageRank_reverseAverageRank">38</data>
+      <data key="v_transitivity_denseRank">19</data>
+      <data key="v_transitivity_reverseDenseRank">1</data>
+      <data key="v_transitivity_percentRank">0.97</data>
+      <data key="v_transitivity_averageRank">38.5</data>
+      <data key="v_transitivity_reverseAverageRank">1.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">1</data>
+      <data key="v_knn_reverseDenseRank">16</data>
+      <data key="v_knn_percentRank">0</data>
+      <data key="v_knn_averageRank">2</data>
+      <data key="v_knn_reverseAverageRank">38</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n3">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n3</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">3</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">12.9</data>
+      <data key="v_closeness">0.0122</data>
+      <data key="v_pageRank">0.0205</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">7.2</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">8</data>
+      <data key="v_betweenness_reverseDenseRank">30</data>
+      <data key="v_betweenness_percentRank">0.18</data>
+      <data key="v_betweenness_averageRank">8</data>
+      <data key="v_betweenness_reverseAverageRank">32</data>
+      <data key="v_closeness_denseRank">8</data>
+      <data key="v_closeness_reverseDenseRank">13</data>
+      <data key="v_closeness_percentRank">0.29</data>
+      <data key="v_closeness_averageRank">13</data>
+      <data key="v_closeness_reverseAverageRank">27</data>
+      <data key="v_pageRank_denseRank">6</data>
+      <data key="v_pageRank_reverseDenseRank">27</data>
+      <data key="v_pageRank_percentRank">0.16</data>
+      <data key="v_pageRank_averageRank">7</data>
+      <data key="v_pageRank_reverseAverageRank">33</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">8</data>
+      <data key="v_knn_reverseDenseRank">9</data>
+      <data key="v_knn_percentRank">0.47</data>
+      <data key="v_knn_averageRank">21</data>
+      <data key="v_knn_reverseAverageRank">19</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n4">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n4</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">4</data>
+      <data key="v_degree">6</data>
+      <data key="v_betweenness">19.2</data>
+      <data key="v_closeness">0.0127</data>
+      <data key="v_pageRank">0.0238</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">4</data>
+      <data key="v_degree_reverseDenseRank">6</data>
+      <data key="v_degree_percentRank">0.32</data>
+      <data key="v_degree_averageRank">15</data>
+      <data key="v_degree_reverseAverageRank">25</data>
+      <data key="v_betweenness_denseRank">20</data>
+      <data key="v_betweenness_reverseDenseRank">18</data>
+      <data key="v_betweenness_percentRank">0.53</data>
+      <data key="v_betweenness_averageRank">21</data>
+      <data key="v_betweenness_reverseAverageRank">19</data>
+      <data key="v_closeness_denseRank">11</data>
+      <data key="v_closeness_reverseDenseRank">10</data>
+      <data key="v_closeness_percentRank">0.45</data>
+      <data key="v_closeness_averageRank">18.5</data>
+      <data key="v_closeness_reverseAverageRank">21.5</data>
+      <data key="v_pageRank_denseRank">11</data>
+      <data key="v_pageRank_reverseDenseRank">22</data>
+      <data key="v_pageRank_percentRank">0.37</data>
+      <data key="v_pageRank_averageRank">15</data>
+      <data key="v_pageRank_reverseAverageRank">25</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">9</data>
+      <data key="v_knn_reverseDenseRank">8</data>
+      <data key="v_knn_percentRank">0.61</data>
+      <data key="v_knn_averageRank">24.5</data>
+      <data key="v_knn_reverseAverageRank">15.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n5">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n5</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">5</data>
+      <data key="v_degree">9</data>
+      <data key="v_betweenness">40.1</data>
+      <data key="v_closeness">0.0135</data>
+      <data key="v_pageRank">0.0339</data>
+      <data key="v_transitivity">0.139</data>
+      <data key="v_triangleCount">5</data>
+      <data key="v_knn">6.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">7</data>
+      <data key="v_degree_reverseDenseRank">3</data>
+      <data key="v_degree_percentRank">0.89</data>
+      <data key="v_degree_averageRank">36</data>
+      <data key="v_degree_reverseAverageRank">4</data>
+      <data key="v_betweenness_denseRank">34</data>
+      <data key="v_betweenness_reverseDenseRank">4</data>
+      <data key="v_betweenness_percentRank">0.92</data>
+      <data key="v_betweenness_averageRank">36</data>
+      <data key="v_betweenness_reverseAverageRank">4</data>
+      <data key="v_closeness_denseRank">16</data>
+      <data key="v_closeness_reverseDenseRank">5</data>
+      <data key="v_closeness_percentRank">0.79</data>
+      <data key="v_closeness_averageRank">32.5</data>
+      <data key="v_closeness_reverseAverageRank">7.5</data>
+      <data key="v_pageRank_denseRank">29</data>
+      <data key="v_pageRank_reverseDenseRank">4</data>
+      <data key="v_pageRank_percentRank">0.92</data>
+      <data key="v_pageRank_averageRank">36</data>
+      <data key="v_pageRank_reverseAverageRank">4</data>
+      <data key="v_transitivity_denseRank">7</data>
+      <data key="v_transitivity_reverseDenseRank">13</data>
+      <data key="v_transitivity_percentRank">0.29</data>
+      <data key="v_transitivity_averageRank">12</data>
+      <data key="v_transitivity_reverseAverageRank">28</data>
+      <data key="v_triangleCount_denseRank">6</data>
+      <data key="v_triangleCount_reverseDenseRank">6</data>
+      <data key="v_triangleCount_percentRank">0.76</data>
+      <data key="v_triangleCount_averageRank">32</data>
+      <data key="v_triangleCount_reverseAverageRank">8</data>
+      <data key="v_knn_denseRank">3</data>
+      <data key="v_knn_reverseDenseRank">14</data>
+      <data key="v_knn_percentRank">0.11</data>
+      <data key="v_knn_averageRank">6.5</data>
+      <data key="v_knn_reverseAverageRank">33.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n6">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n6</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">6</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">21.2</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.0267</data>
+      <data key="v_transitivity">0.0476</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">7.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">22</data>
+      <data key="v_betweenness_reverseDenseRank">16</data>
+      <data key="v_betweenness_percentRank">0.58</data>
+      <data key="v_betweenness_averageRank">23</data>
+      <data key="v_betweenness_reverseAverageRank">17</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">16</data>
+      <data key="v_pageRank_reverseDenseRank">17</data>
+      <data key="v_pageRank_percentRank">0.5</data>
+      <data key="v_pageRank_averageRank">20</data>
+      <data key="v_pageRank_reverseAverageRank">20</data>
+      <data key="v_transitivity_denseRank">2</data>
+      <data key="v_transitivity_reverseDenseRank">18</data>
+      <data key="v_transitivity_percentRank">0.05</data>
+      <data key="v_transitivity_averageRank">4</data>
+      <data key="v_transitivity_reverseAverageRank">36</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">9</data>
+      <data key="v_knn_reverseDenseRank">8</data>
+      <data key="v_knn_percentRank">0.61</data>
+      <data key="v_knn_averageRank">24.5</data>
+      <data key="v_knn_reverseAverageRank">15.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n7">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n7</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">7</data>
+      <data key="v_degree">8</data>
+      <data key="v_betweenness">37</data>
+      <data key="v_closeness">0.0133</data>
+      <data key="v_pageRank">0.0312</data>
+      <data key="v_transitivity">0.143</data>
+      <data key="v_triangleCount">4</data>
+      <data key="v_knn">6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">6</data>
+      <data key="v_degree_reverseDenseRank">4</data>
+      <data key="v_degree_percentRank">0.76</data>
+      <data key="v_degree_averageRank">32</data>
+      <data key="v_degree_reverseAverageRank">8</data>
+      <data key="v_betweenness_denseRank">32</data>
+      <data key="v_betweenness_reverseDenseRank">6</data>
+      <data key="v_betweenness_percentRank">0.87</data>
+      <data key="v_betweenness_averageRank">34</data>
+      <data key="v_betweenness_reverseAverageRank">6</data>
+      <data key="v_closeness_denseRank">15</data>
+      <data key="v_closeness_reverseDenseRank">6</data>
+      <data key="v_closeness_percentRank">0.74</data>
+      <data key="v_closeness_averageRank">29.5</data>
+      <data key="v_closeness_reverseAverageRank">10.5</data>
+      <data key="v_pageRank_denseRank">27</data>
+      <data key="v_pageRank_reverseDenseRank">6</data>
+      <data key="v_pageRank_percentRank">0.87</data>
+      <data key="v_pageRank_averageRank">34</data>
+      <data key="v_pageRank_reverseAverageRank">6</data>
+      <data key="v_transitivity_denseRank">8</data>
+      <data key="v_transitivity_reverseDenseRank">12</data>
+      <data key="v_transitivity_percentRank">0.32</data>
+      <data key="v_transitivity_averageRank">15</data>
+      <data key="v_transitivity_reverseAverageRank">25</data>
+      <data key="v_triangleCount_denseRank">5</data>
+      <data key="v_triangleCount_reverseDenseRank">7</data>
+      <data key="v_triangleCount_percentRank">0.66</data>
+      <data key="v_triangleCount_averageRank">27.5</data>
+      <data key="v_triangleCount_reverseAverageRank">12.5</data>
+      <data key="v_knn_denseRank">1</data>
+      <data key="v_knn_reverseDenseRank">16</data>
+      <data key="v_knn_percentRank">0</data>
+      <data key="v_knn_averageRank">2</data>
+      <data key="v_knn_reverseAverageRank">38</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n8">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n8</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">8</data>
+      <data key="v_degree">11</data>
+      <data key="v_betweenness">55.5</data>
+      <data key="v_closeness">0.0141</data>
+      <data key="v_pageRank">0.0407</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">11</data>
+      <data key="v_knn">6.5</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">9</data>
+      <data key="v_degree_reverseDenseRank">1</data>
+      <data key="v_degree_percentRank">1</data>
+      <data key="v_degree_averageRank">39</data>
+      <data key="v_degree_reverseAverageRank">1</data>
+      <data key="v_betweenness_denseRank">37</data>
+      <data key="v_betweenness_reverseDenseRank">1</data>
+      <data key="v_betweenness_percentRank">1</data>
+      <data key="v_betweenness_averageRank">39</data>
+      <data key="v_betweenness_reverseAverageRank">1</data>
+      <data key="v_closeness_denseRank">19</data>
+      <data key="v_closeness_reverseDenseRank">2</data>
+      <data key="v_closeness_percentRank">0.97</data>
+      <data key="v_closeness_averageRank">38</data>
+      <data key="v_closeness_reverseAverageRank">2</data>
+      <data key="v_pageRank_denseRank">32</data>
+      <data key="v_pageRank_reverseDenseRank">1</data>
+      <data key="v_pageRank_percentRank">1</data>
+      <data key="v_pageRank_averageRank">39</data>
+      <data key="v_pageRank_reverseAverageRank">1</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">11</data>
+      <data key="v_triangleCount_reverseDenseRank">1</data>
+      <data key="v_triangleCount_percentRank">1</data>
+      <data key="v_triangleCount_averageRank">39</data>
+      <data key="v_triangleCount_reverseAverageRank">1</data>
+      <data key="v_knn_denseRank">4</data>
+      <data key="v_knn_reverseDenseRank">13</data>
+      <data key="v_knn_percentRank">0.21</data>
+      <data key="v_knn_averageRank">9.5</data>
+      <data key="v_knn_reverseAverageRank">30.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n9">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n9</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">9</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">13.4</data>
+      <data key="v_closeness">0.0133</data>
+      <data key="v_pageRank">0.0262</data>
+      <data key="v_transitivity">0.286</data>
+      <data key="v_triangleCount">6</data>
+      <data key="v_knn">8.1</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">10</data>
+      <data key="v_betweenness_reverseDenseRank">28</data>
+      <data key="v_betweenness_percentRank">0.24</data>
+      <data key="v_betweenness_averageRank">10</data>
+      <data key="v_betweenness_reverseAverageRank">30</data>
+      <data key="v_closeness_denseRank">15</data>
+      <data key="v_closeness_reverseDenseRank">6</data>
+      <data key="v_closeness_percentRank">0.74</data>
+      <data key="v_closeness_averageRank">29.5</data>
+      <data key="v_closeness_reverseAverageRank">10.5</data>
+      <data key="v_pageRank_denseRank">14</data>
+      <data key="v_pageRank_reverseDenseRank">19</data>
+      <data key="v_pageRank_percentRank">0.45</data>
+      <data key="v_pageRank_averageRank">18</data>
+      <data key="v_pageRank_reverseAverageRank">22</data>
+      <data key="v_transitivity_denseRank">16</data>
+      <data key="v_transitivity_reverseDenseRank">4</data>
+      <data key="v_transitivity_percentRank">0.87</data>
+      <data key="v_transitivity_averageRank">34</data>
+      <data key="v_transitivity_reverseAverageRank">6</data>
+      <data key="v_triangleCount_denseRank">7</data>
+      <data key="v_triangleCount_reverseDenseRank">5</data>
+      <data key="v_triangleCount_percentRank">0.89</data>
+      <data key="v_triangleCount_averageRank">35</data>
+      <data key="v_triangleCount_reverseAverageRank">5</data>
+      <data key="v_knn_denseRank">14</data>
+      <data key="v_knn_reverseDenseRank">3</data>
+      <data key="v_knn_percentRank">0.95</data>
+      <data key="v_knn_averageRank">37</data>
+      <data key="v_knn_reverseAverageRank">3</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n10">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n10</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">10</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">14.4</data>
+      <data key="v_closeness">0.0119</data>
+      <data key="v_pageRank">0.0207</data>
+      <data key="v_transitivity">0</data>
+      <data key="v_triangleCount">0</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">12</data>
+      <data key="v_betweenness_reverseDenseRank">26</data>
+      <data key="v_betweenness_percentRank">0.29</data>
+      <data key="v_betweenness_averageRank">12</data>
+      <data key="v_betweenness_reverseAverageRank">28</data>
+      <data key="v_closeness_denseRank">6</data>
+      <data key="v_closeness_reverseDenseRank">15</data>
+      <data key="v_closeness_percentRank">0.21</data>
+      <data key="v_closeness_averageRank">9.5</data>
+      <data key="v_closeness_reverseAverageRank">30.5</data>
+      <data key="v_pageRank_denseRank">7</data>
+      <data key="v_pageRank_reverseDenseRank">26</data>
+      <data key="v_pageRank_percentRank">0.18</data>
+      <data key="v_pageRank_averageRank">9</data>
+      <data key="v_pageRank_reverseAverageRank">31</data>
+      <data key="v_transitivity_denseRank">1</data>
+      <data key="v_transitivity_reverseDenseRank">19</data>
+      <data key="v_transitivity_percentRank">0</data>
+      <data key="v_transitivity_averageRank">1.5</data>
+      <data key="v_transitivity_reverseAverageRank">38.5</data>
+      <data key="v_triangleCount_denseRank">1</data>
+      <data key="v_triangleCount_reverseDenseRank">11</data>
+      <data key="v_triangleCount_percentRank">0</data>
+      <data key="v_triangleCount_averageRank">1.5</data>
+      <data key="v_triangleCount_reverseAverageRank">38.5</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n11">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n11</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">11</data>
+      <data key="v_degree">4</data>
+      <data key="v_betweenness">5</data>
+      <data key="v_closeness">0.0104</data>
+      <data key="v_pageRank">0.0177</data>
+      <data key="v_transitivity">0.167</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">2</data>
+      <data key="v_degree_reverseDenseRank">8</data>
+      <data key="v_degree_percentRank">0.05</data>
+      <data key="v_degree_averageRank">3.5</data>
+      <data key="v_degree_reverseAverageRank">36.5</data>
+      <data key="v_betweenness_denseRank">4</data>
+      <data key="v_betweenness_reverseDenseRank">34</data>
+      <data key="v_betweenness_percentRank">0.08</data>
+      <data key="v_betweenness_averageRank">4</data>
+      <data key="v_betweenness_reverseAverageRank">36</data>
+      <data key="v_closeness_denseRank">2</data>
+      <data key="v_closeness_reverseDenseRank">19</data>
+      <data key="v_closeness_percentRank">0.03</data>
+      <data key="v_closeness_averageRank">2.5</data>
+      <data key="v_closeness_reverseAverageRank">37.5</data>
+      <data key="v_pageRank_denseRank">4</data>
+      <data key="v_pageRank_reverseDenseRank">29</data>
+      <data key="v_pageRank_percentRank">0.08</data>
+      <data key="v_pageRank_averageRank">4</data>
+      <data key="v_pageRank_reverseAverageRank">36</data>
+      <data key="v_transitivity_denseRank">9</data>
+      <data key="v_transitivity_reverseDenseRank">11</data>
+      <data key="v_transitivity_percentRank">0.45</data>
+      <data key="v_transitivity_averageRank">18.5</data>
+      <data key="v_transitivity_reverseAverageRank">21.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">1</data>
+      <data key="v_knn_reverseDenseRank">16</data>
+      <data key="v_knn_percentRank">0</data>
+      <data key="v_knn_averageRank">2</data>
+      <data key="v_knn_reverseAverageRank">38</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n12">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n12</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">12</data>
+      <data key="v_degree">6</data>
+      <data key="v_betweenness">19</data>
+      <data key="v_closeness">0.0123</data>
+      <data key="v_pageRank">0.024</data>
+      <data key="v_transitivity">0.0667</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6.5</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">4</data>
+      <data key="v_degree_reverseDenseRank">6</data>
+      <data key="v_degree_percentRank">0.32</data>
+      <data key="v_degree_averageRank">15</data>
+      <data key="v_degree_reverseAverageRank">25</data>
+      <data key="v_betweenness_denseRank">19</data>
+      <data key="v_betweenness_reverseDenseRank">19</data>
+      <data key="v_betweenness_percentRank">0.5</data>
+      <data key="v_betweenness_averageRank">20</data>
+      <data key="v_betweenness_reverseAverageRank">20</data>
+      <data key="v_closeness_denseRank">9</data>
+      <data key="v_closeness_reverseDenseRank">12</data>
+      <data key="v_closeness_percentRank">0.37</data>
+      <data key="v_closeness_averageRank">15</data>
+      <data key="v_closeness_reverseAverageRank">25</data>
+      <data key="v_pageRank_denseRank">12</data>
+      <data key="v_pageRank_reverseDenseRank">21</data>
+      <data key="v_pageRank_percentRank">0.39</data>
+      <data key="v_pageRank_averageRank">16</data>
+      <data key="v_pageRank_reverseAverageRank">24</data>
+      <data key="v_transitivity_denseRank">3</data>
+      <data key="v_transitivity_reverseDenseRank">17</data>
+      <data key="v_transitivity_percentRank">0.13</data>
+      <data key="v_transitivity_averageRank">6.5</data>
+      <data key="v_transitivity_reverseAverageRank">33.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">4</data>
+      <data key="v_knn_reverseDenseRank">13</data>
+      <data key="v_knn_percentRank">0.21</data>
+      <data key="v_knn_averageRank">9.5</data>
+      <data key="v_knn_reverseAverageRank">30.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n13">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n13</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">13</data>
+      <data key="v_degree">8</data>
+      <data key="v_betweenness">15.3</data>
+      <data key="v_closeness">0.0137</data>
+      <data key="v_pageRank">0.0294</data>
+      <data key="v_transitivity">0.321</data>
+      <data key="v_triangleCount">9</data>
+      <data key="v_knn">8.4</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">6</data>
+      <data key="v_degree_reverseDenseRank">4</data>
+      <data key="v_degree_percentRank">0.76</data>
+      <data key="v_degree_averageRank">32</data>
+      <data key="v_degree_reverseAverageRank">8</data>
+      <data key="v_betweenness_denseRank">15</data>
+      <data key="v_betweenness_reverseDenseRank">23</data>
+      <data key="v_betweenness_percentRank">0.39</data>
+      <data key="v_betweenness_averageRank">16</data>
+      <data key="v_betweenness_reverseAverageRank">24</data>
+      <data key="v_closeness_denseRank">17</data>
+      <data key="v_closeness_reverseDenseRank">4</data>
+      <data key="v_closeness_percentRank">0.89</data>
+      <data key="v_closeness_averageRank">35.5</data>
+      <data key="v_closeness_reverseAverageRank">4.5</data>
+      <data key="v_pageRank_denseRank">23</data>
+      <data key="v_pageRank_reverseDenseRank">10</data>
+      <data key="v_pageRank_percentRank">0.76</data>
+      <data key="v_pageRank_averageRank">30</data>
+      <data key="v_pageRank_reverseAverageRank">10</data>
+      <data key="v_transitivity_denseRank">18</data>
+      <data key="v_transitivity_reverseDenseRank">2</data>
+      <data key="v_transitivity_percentRank">0.95</data>
+      <data key="v_transitivity_averageRank">37</data>
+      <data key="v_transitivity_reverseAverageRank">3</data>
+      <data key="v_triangleCount_denseRank">9</data>
+      <data key="v_triangleCount_reverseDenseRank">3</data>
+      <data key="v_triangleCount_percentRank">0.95</data>
+      <data key="v_triangleCount_averageRank">37</data>
+      <data key="v_triangleCount_reverseAverageRank">3</data>
+      <data key="v_knn_denseRank">16</data>
+      <data key="v_knn_reverseDenseRank">1</data>
+      <data key="v_knn_percentRank">1</data>
+      <data key="v_knn_averageRank">39</data>
+      <data key="v_knn_reverseAverageRank">1</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n14">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n14</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">14</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">22.3</data>
+      <data key="v_closeness">0.0128</data>
+      <data key="v_pageRank">0.027</data>
+      <data key="v_transitivity">0.0952</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">7.1</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">23</data>
+      <data key="v_betweenness_reverseDenseRank">15</data>
+      <data key="v_betweenness_percentRank">0.61</data>
+      <data key="v_betweenness_averageRank">24</data>
+      <data key="v_betweenness_reverseAverageRank">16</data>
+      <data key="v_closeness_denseRank">12</data>
+      <data key="v_closeness_reverseDenseRank">9</data>
+      <data key="v_closeness_percentRank">0.5</data>
+      <data key="v_closeness_averageRank">20.5</data>
+      <data key="v_closeness_reverseAverageRank">19.5</data>
+      <data key="v_pageRank_denseRank">19</data>
+      <data key="v_pageRank_reverseDenseRank">14</data>
+      <data key="v_pageRank_percentRank">0.63</data>
+      <data key="v_pageRank_averageRank">25</data>
+      <data key="v_pageRank_reverseAverageRank">15</data>
+      <data key="v_transitivity_denseRank">4</data>
+      <data key="v_transitivity_reverseDenseRank">16</data>
+      <data key="v_transitivity_percentRank">0.18</data>
+      <data key="v_transitivity_averageRank">8</data>
+      <data key="v_transitivity_reverseAverageRank">32</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">7</data>
+      <data key="v_knn_reverseDenseRank">10</data>
+      <data key="v_knn_percentRank">0.45</data>
+      <data key="v_knn_averageRank">18</data>
+      <data key="v_knn_reverseAverageRank">22</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n15">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n15</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">15</data>
+      <data key="v_degree">6</data>
+      <data key="v_betweenness">17.1</data>
+      <data key="v_closeness">0.012</data>
+      <data key="v_pageRank">0.0241</data>
+      <data key="v_transitivity">0.0667</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">4</data>
+      <data key="v_degree_reverseDenseRank">6</data>
+      <data key="v_degree_percentRank">0.32</data>
+      <data key="v_degree_averageRank">15</data>
+      <data key="v_degree_reverseAverageRank">25</data>
+      <data key="v_betweenness_denseRank">16</data>
+      <data key="v_betweenness_reverseDenseRank">22</data>
+      <data key="v_betweenness_percentRank">0.42</data>
+      <data key="v_betweenness_averageRank">17</data>
+      <data key="v_betweenness_reverseAverageRank">23</data>
+      <data key="v_closeness_denseRank">7</data>
+      <data key="v_closeness_reverseDenseRank">14</data>
+      <data key="v_closeness_percentRank">0.26</data>
+      <data key="v_closeness_averageRank">11</data>
+      <data key="v_closeness_reverseAverageRank">29</data>
+      <data key="v_pageRank_denseRank">13</data>
+      <data key="v_pageRank_reverseDenseRank">20</data>
+      <data key="v_pageRank_percentRank">0.42</data>
+      <data key="v_pageRank_averageRank">17</data>
+      <data key="v_pageRank_reverseAverageRank">23</data>
+      <data key="v_transitivity_denseRank">3</data>
+      <data key="v_transitivity_reverseDenseRank">17</data>
+      <data key="v_transitivity_percentRank">0.13</data>
+      <data key="v_transitivity_averageRank">6.5</data>
+      <data key="v_transitivity_reverseAverageRank">33.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">3</data>
+      <data key="v_knn_reverseDenseRank">14</data>
+      <data key="v_knn_percentRank">0.11</data>
+      <data key="v_knn_averageRank">6.5</data>
+      <data key="v_knn_reverseAverageRank">33.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n16">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n16</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">16</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">22.9</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.0269</data>
+      <data key="v_transitivity">0.19</data>
+      <data key="v_triangleCount">4</data>
+      <data key="v_knn">7.4</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">24</data>
+      <data key="v_betweenness_reverseDenseRank">14</data>
+      <data key="v_betweenness_percentRank">0.63</data>
+      <data key="v_betweenness_averageRank">25</data>
+      <data key="v_betweenness_reverseAverageRank">15</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">18</data>
+      <data key="v_pageRank_reverseDenseRank">15</data>
+      <data key="v_pageRank_percentRank">0.58</data>
+      <data key="v_pageRank_averageRank">23.5</data>
+      <data key="v_pageRank_reverseAverageRank">16.5</data>
+      <data key="v_transitivity_denseRank">11</data>
+      <data key="v_transitivity_reverseDenseRank">9</data>
+      <data key="v_transitivity_percentRank">0.55</data>
+      <data key="v_transitivity_averageRank">22</data>
+      <data key="v_transitivity_reverseAverageRank">18</data>
+      <data key="v_triangleCount_denseRank">5</data>
+      <data key="v_triangleCount_reverseDenseRank">7</data>
+      <data key="v_triangleCount_percentRank">0.66</data>
+      <data key="v_triangleCount_averageRank">27.5</data>
+      <data key="v_triangleCount_reverseAverageRank">12.5</data>
+      <data key="v_knn_denseRank">10</data>
+      <data key="v_knn_reverseDenseRank">7</data>
+      <data key="v_knn_percentRank">0.66</data>
+      <data key="v_knn_averageRank">27</data>
+      <data key="v_knn_reverseAverageRank">13</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n17">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n17</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">17</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">25.9</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.0273</data>
+      <data key="v_transitivity">0.143</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">29</data>
+      <data key="v_betweenness_reverseDenseRank">9</data>
+      <data key="v_betweenness_percentRank">0.79</data>
+      <data key="v_betweenness_averageRank">31</data>
+      <data key="v_betweenness_reverseAverageRank">9</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">21</data>
+      <data key="v_pageRank_reverseDenseRank">12</data>
+      <data key="v_pageRank_percentRank">0.68</data>
+      <data key="v_pageRank_averageRank">27.5</data>
+      <data key="v_pageRank_reverseAverageRank">12.5</data>
+      <data key="v_transitivity_denseRank">8</data>
+      <data key="v_transitivity_reverseDenseRank">12</data>
+      <data key="v_transitivity_percentRank">0.32</data>
+      <data key="v_transitivity_averageRank">15</data>
+      <data key="v_transitivity_reverseAverageRank">25</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n18">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n18</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">18</data>
+      <data key="v_degree">6</data>
+      <data key="v_betweenness">14.5</data>
+      <data key="v_closeness">0.0125</data>
+      <data key="v_pageRank">0.0234</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.5</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">4</data>
+      <data key="v_degree_reverseDenseRank">6</data>
+      <data key="v_degree_percentRank">0.32</data>
+      <data key="v_degree_averageRank">15</data>
+      <data key="v_degree_reverseAverageRank">25</data>
+      <data key="v_betweenness_denseRank">13</data>
+      <data key="v_betweenness_reverseDenseRank">25</data>
+      <data key="v_betweenness_percentRank">0.32</data>
+      <data key="v_betweenness_averageRank">13</data>
+      <data key="v_betweenness_reverseAverageRank">27</data>
+      <data key="v_closeness_denseRank">10</data>
+      <data key="v_closeness_reverseDenseRank">11</data>
+      <data key="v_closeness_percentRank">0.39</data>
+      <data key="v_closeness_averageRank">16.5</data>
+      <data key="v_closeness_reverseAverageRank">23.5</data>
+      <data key="v_pageRank_denseRank">9</data>
+      <data key="v_pageRank_reverseDenseRank">24</data>
+      <data key="v_pageRank_percentRank">0.32</data>
+      <data key="v_pageRank_averageRank">13</data>
+      <data key="v_pageRank_reverseAverageRank">27</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">11</data>
+      <data key="v_knn_reverseDenseRank">6</data>
+      <data key="v_knn_percentRank">0.74</data>
+      <data key="v_knn_averageRank">29.5</data>
+      <data key="v_knn_reverseAverageRank">10.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n19">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n19</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">19</data>
+      <data key="v_degree">10</data>
+      <data key="v_betweenness">40.2</data>
+      <data key="v_closeness">0.0145</data>
+      <data key="v_pageRank">0.0363</data>
+      <data key="v_transitivity">0.222</data>
+      <data key="v_triangleCount">10</data>
+      <data key="v_knn">7.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">8</data>
+      <data key="v_degree_reverseDenseRank">2</data>
+      <data key="v_degree_percentRank">0.97</data>
+      <data key="v_degree_averageRank">38</data>
+      <data key="v_degree_reverseAverageRank">2</data>
+      <data key="v_betweenness_denseRank">35</data>
+      <data key="v_betweenness_reverseDenseRank">3</data>
+      <data key="v_betweenness_percentRank">0.95</data>
+      <data key="v_betweenness_averageRank">37</data>
+      <data key="v_betweenness_reverseAverageRank">3</data>
+      <data key="v_closeness_denseRank">20</data>
+      <data key="v_closeness_reverseDenseRank">1</data>
+      <data key="v_closeness_percentRank">1</data>
+      <data key="v_closeness_averageRank">39</data>
+      <data key="v_closeness_reverseAverageRank">1</data>
+      <data key="v_pageRank_denseRank">31</data>
+      <data key="v_pageRank_reverseDenseRank">2</data>
+      <data key="v_pageRank_percentRank">0.97</data>
+      <data key="v_pageRank_averageRank">38</data>
+      <data key="v_pageRank_reverseAverageRank">2</data>
+      <data key="v_transitivity_denseRank">13</data>
+      <data key="v_transitivity_reverseDenseRank">7</data>
+      <data key="v_transitivity_percentRank">0.76</data>
+      <data key="v_transitivity_averageRank">30</data>
+      <data key="v_transitivity_reverseAverageRank">10</data>
+      <data key="v_triangleCount_denseRank">10</data>
+      <data key="v_triangleCount_reverseDenseRank">2</data>
+      <data key="v_triangleCount_percentRank">0.97</data>
+      <data key="v_triangleCount_averageRank">38</data>
+      <data key="v_triangleCount_reverseAverageRank">2</data>
+      <data key="v_knn_denseRank">12</data>
+      <data key="v_knn_reverseDenseRank">5</data>
+      <data key="v_knn_percentRank">0.79</data>
+      <data key="v_knn_averageRank">32.5</data>
+      <data key="v_knn_reverseAverageRank">7.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n20">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n20</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">20</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">18.6</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.0266</data>
+      <data key="v_transitivity">0.238</data>
+      <data key="v_triangleCount">5</data>
+      <data key="v_knn">7.7</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">18</data>
+      <data key="v_betweenness_reverseDenseRank">20</data>
+      <data key="v_betweenness_percentRank">0.47</data>
+      <data key="v_betweenness_averageRank">19</data>
+      <data key="v_betweenness_reverseAverageRank">21</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">15</data>
+      <data key="v_pageRank_reverseDenseRank">18</data>
+      <data key="v_pageRank_percentRank">0.47</data>
+      <data key="v_pageRank_averageRank">19</data>
+      <data key="v_pageRank_reverseAverageRank">21</data>
+      <data key="v_transitivity_denseRank">14</data>
+      <data key="v_transitivity_reverseDenseRank">6</data>
+      <data key="v_transitivity_percentRank">0.79</data>
+      <data key="v_transitivity_averageRank">31.5</data>
+      <data key="v_transitivity_reverseAverageRank">8.5</data>
+      <data key="v_triangleCount_denseRank">6</data>
+      <data key="v_triangleCount_reverseDenseRank">6</data>
+      <data key="v_triangleCount_percentRank">0.76</data>
+      <data key="v_triangleCount_averageRank">32</data>
+      <data key="v_triangleCount_reverseAverageRank">8</data>
+      <data key="v_knn_denseRank">13</data>
+      <data key="v_knn_reverseDenseRank">4</data>
+      <data key="v_knn_percentRank">0.89</data>
+      <data key="v_knn_averageRank">35.5</data>
+      <data key="v_knn_reverseAverageRank">4.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n21">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n21</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">21</data>
+      <data key="v_degree">3</data>
+      <data key="v_betweenness">1.4</data>
+      <data key="v_closeness">0.0104</data>
+      <data key="v_pageRank">0.0136</data>
+      <data key="v_transitivity">0.333</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">8.3</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">1</data>
+      <data key="v_degree_reverseDenseRank">9</data>
+      <data key="v_degree_percentRank">0</data>
+      <data key="v_degree_averageRank">1.5</data>
+      <data key="v_degree_reverseAverageRank">38.5</data>
+      <data key="v_betweenness_denseRank">1</data>
+      <data key="v_betweenness_reverseDenseRank">37</data>
+      <data key="v_betweenness_percentRank">0</data>
+      <data key="v_betweenness_averageRank">1</data>
+      <data key="v_betweenness_reverseAverageRank">39</data>
+      <data key="v_closeness_denseRank">2</data>
+      <data key="v_closeness_reverseDenseRank">19</data>
+      <data key="v_closeness_percentRank">0.03</data>
+      <data key="v_closeness_averageRank">2.5</data>
+      <data key="v_closeness_reverseAverageRank">37.5</data>
+      <data key="v_pageRank_denseRank">1</data>
+      <data key="v_pageRank_reverseDenseRank">32</data>
+      <data key="v_pageRank_percentRank">0</data>
+      <data key="v_pageRank_averageRank">1</data>
+      <data key="v_pageRank_reverseAverageRank">39</data>
+      <data key="v_transitivity_denseRank">19</data>
+      <data key="v_transitivity_reverseDenseRank">1</data>
+      <data key="v_transitivity_percentRank">0.97</data>
+      <data key="v_transitivity_averageRank">38.5</data>
+      <data key="v_transitivity_reverseAverageRank">1.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">15</data>
+      <data key="v_knn_reverseDenseRank">2</data>
+      <data key="v_knn_percentRank">0.97</data>
+      <data key="v_knn_averageRank">38</data>
+      <data key="v_knn_reverseAverageRank">2</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n22">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n22</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">22</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">12</data>
+      <data key="v_closeness">0.0116</data>
+      <data key="v_pageRank">0.0207</data>
+      <data key="v_transitivity">0</data>
+      <data key="v_triangleCount">0</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">7</data>
+      <data key="v_betweenness_reverseDenseRank">31</data>
+      <data key="v_betweenness_percentRank">0.16</data>
+      <data key="v_betweenness_averageRank">7</data>
+      <data key="v_betweenness_reverseAverageRank">33</data>
+      <data key="v_closeness_denseRank">5</data>
+      <data key="v_closeness_reverseDenseRank">16</data>
+      <data key="v_closeness_percentRank">0.13</data>
+      <data key="v_closeness_averageRank">7</data>
+      <data key="v_closeness_reverseAverageRank">33</data>
+      <data key="v_pageRank_denseRank">7</data>
+      <data key="v_pageRank_reverseDenseRank">26</data>
+      <data key="v_pageRank_percentRank">0.18</data>
+      <data key="v_pageRank_averageRank">9</data>
+      <data key="v_pageRank_reverseAverageRank">31</data>
+      <data key="v_transitivity_denseRank">1</data>
+      <data key="v_transitivity_reverseDenseRank">19</data>
+      <data key="v_transitivity_percentRank">0</data>
+      <data key="v_transitivity_averageRank">1.5</data>
+      <data key="v_transitivity_reverseAverageRank">38.5</data>
+      <data key="v_triangleCount_denseRank">1</data>
+      <data key="v_triangleCount_reverseDenseRank">11</data>
+      <data key="v_triangleCount_percentRank">0</data>
+      <data key="v_triangleCount_averageRank">1.5</data>
+      <data key="v_triangleCount_reverseAverageRank">38.5</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n23">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n23</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">23</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">8.1</data>
+      <data key="v_closeness">0.0119</data>
+      <data key="v_pageRank">0.0204</data>
+      <data key="v_transitivity">0.3</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.4</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">5</data>
+      <data key="v_betweenness_reverseDenseRank">33</data>
+      <data key="v_betweenness_percentRank">0.11</data>
+      <data key="v_betweenness_averageRank">5</data>
+      <data key="v_betweenness_reverseAverageRank">35</data>
+      <data key="v_closeness_denseRank">6</data>
+      <data key="v_closeness_reverseDenseRank">15</data>
+      <data key="v_closeness_percentRank">0.21</data>
+      <data key="v_closeness_averageRank">9.5</data>
+      <data key="v_closeness_reverseAverageRank">30.5</data>
+      <data key="v_pageRank_denseRank">5</data>
+      <data key="v_pageRank_reverseDenseRank">28</data>
+      <data key="v_pageRank_percentRank">0.11</data>
+      <data key="v_pageRank_averageRank">5.5</data>
+      <data key="v_pageRank_reverseAverageRank">34.5</data>
+      <data key="v_transitivity_denseRank">17</data>
+      <data key="v_transitivity_reverseDenseRank">3</data>
+      <data key="v_transitivity_percentRank">0.89</data>
+      <data key="v_transitivity_averageRank">35.5</data>
+      <data key="v_transitivity_reverseAverageRank">4.5</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">10</data>
+      <data key="v_knn_reverseDenseRank">7</data>
+      <data key="v_knn_percentRank">0.66</data>
+      <data key="v_knn_averageRank">27</data>
+      <data key="v_knn_reverseAverageRank">13</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n24">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n24</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">24</data>
+      <data key="v_degree">8</data>
+      <data key="v_betweenness">24.6</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.0301</data>
+      <data key="v_transitivity">0.25</data>
+      <data key="v_triangleCount">7</data>
+      <data key="v_knn">7.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">6</data>
+      <data key="v_degree_reverseDenseRank">4</data>
+      <data key="v_degree_percentRank">0.76</data>
+      <data key="v_degree_averageRank">32</data>
+      <data key="v_degree_reverseAverageRank">8</data>
+      <data key="v_betweenness_denseRank">26</data>
+      <data key="v_betweenness_reverseDenseRank">12</data>
+      <data key="v_betweenness_percentRank">0.68</data>
+      <data key="v_betweenness_averageRank">27</data>
+      <data key="v_betweenness_reverseAverageRank">13</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">25</data>
+      <data key="v_pageRank_reverseDenseRank">8</data>
+      <data key="v_pageRank_percentRank">0.82</data>
+      <data key="v_pageRank_averageRank">32</data>
+      <data key="v_pageRank_reverseAverageRank">8</data>
+      <data key="v_transitivity_denseRank">15</data>
+      <data key="v_transitivity_reverseDenseRank">5</data>
+      <data key="v_transitivity_percentRank">0.84</data>
+      <data key="v_transitivity_averageRank">33</data>
+      <data key="v_transitivity_reverseAverageRank">7</data>
+      <data key="v_triangleCount_denseRank">8</data>
+      <data key="v_triangleCount_reverseDenseRank">4</data>
+      <data key="v_triangleCount_percentRank">0.92</data>
+      <data key="v_triangleCount_averageRank">36</data>
+      <data key="v_triangleCount_reverseAverageRank">4</data>
+      <data key="v_knn_denseRank">12</data>
+      <data key="v_knn_reverseDenseRank">5</data>
+      <data key="v_knn_percentRank">0.79</data>
+      <data key="v_knn_averageRank">32.5</data>
+      <data key="v_knn_reverseAverageRank">7.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n25">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n25</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">25</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">19.7</data>
+      <data key="v_closeness">0.0135</data>
+      <data key="v_pageRank">0.0268</data>
+      <data key="v_transitivity">0.143</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">21</data>
+      <data key="v_betweenness_reverseDenseRank">17</data>
+      <data key="v_betweenness_percentRank">0.55</data>
+      <data key="v_betweenness_averageRank">22</data>
+      <data key="v_betweenness_reverseAverageRank">18</data>
+      <data key="v_closeness_denseRank">16</data>
+      <data key="v_closeness_reverseDenseRank">5</data>
+      <data key="v_closeness_percentRank">0.79</data>
+      <data key="v_closeness_averageRank">32.5</data>
+      <data key="v_closeness_reverseAverageRank">7.5</data>
+      <data key="v_pageRank_denseRank">17</data>
+      <data key="v_pageRank_reverseDenseRank">16</data>
+      <data key="v_pageRank_percentRank">0.53</data>
+      <data key="v_pageRank_averageRank">21.5</data>
+      <data key="v_pageRank_reverseAverageRank">18.5</data>
+      <data key="v_transitivity_denseRank">8</data>
+      <data key="v_transitivity_reverseDenseRank">12</data>
+      <data key="v_transitivity_percentRank">0.32</data>
+      <data key="v_transitivity_averageRank">15</data>
+      <data key="v_transitivity_reverseAverageRank">25</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">12</data>
+      <data key="v_knn_reverseDenseRank">5</data>
+      <data key="v_knn_percentRank">0.79</data>
+      <data key="v_knn_averageRank">32.5</data>
+      <data key="v_knn_reverseAverageRank">7.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n26">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n26</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">26</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">25.1</data>
+      <data key="v_closeness">0.0135</data>
+      <data key="v_pageRank">0.0269</data>
+      <data key="v_transitivity">0.143</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.4</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">27</data>
+      <data key="v_betweenness_reverseDenseRank">11</data>
+      <data key="v_betweenness_percentRank">0.71</data>
+      <data key="v_betweenness_averageRank">28</data>
+      <data key="v_betweenness_reverseAverageRank">12</data>
+      <data key="v_closeness_denseRank">16</data>
+      <data key="v_closeness_reverseDenseRank">5</data>
+      <data key="v_closeness_percentRank">0.79</data>
+      <data key="v_closeness_averageRank">32.5</data>
+      <data key="v_closeness_reverseAverageRank">7.5</data>
+      <data key="v_pageRank_denseRank">18</data>
+      <data key="v_pageRank_reverseDenseRank">15</data>
+      <data key="v_pageRank_percentRank">0.58</data>
+      <data key="v_pageRank_averageRank">23.5</data>
+      <data key="v_pageRank_reverseAverageRank">16.5</data>
+      <data key="v_transitivity_denseRank">8</data>
+      <data key="v_transitivity_reverseDenseRank">12</data>
+      <data key="v_transitivity_percentRank">0.32</data>
+      <data key="v_transitivity_averageRank">15</data>
+      <data key="v_transitivity_reverseAverageRank">25</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">10</data>
+      <data key="v_knn_reverseDenseRank">7</data>
+      <data key="v_knn_percentRank">0.66</data>
+      <data key="v_knn_averageRank">27</data>
+      <data key="v_knn_reverseAverageRank">13</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n27">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n27</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">27</data>
+      <data key="v_degree">9</data>
+      <data key="v_betweenness">31.1</data>
+      <data key="v_closeness">0.0135</data>
+      <data key="v_pageRank">0.0331</data>
+      <data key="v_transitivity">0.111</data>
+      <data key="v_triangleCount">4</data>
+      <data key="v_knn">7.2</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">7</data>
+      <data key="v_degree_reverseDenseRank">3</data>
+      <data key="v_degree_percentRank">0.89</data>
+      <data key="v_degree_averageRank">36</data>
+      <data key="v_degree_reverseAverageRank">4</data>
+      <data key="v_betweenness_denseRank">31</data>
+      <data key="v_betweenness_reverseDenseRank">7</data>
+      <data key="v_betweenness_percentRank">0.84</data>
+      <data key="v_betweenness_averageRank">33</data>
+      <data key="v_betweenness_reverseAverageRank">7</data>
+      <data key="v_closeness_denseRank">16</data>
+      <data key="v_closeness_reverseDenseRank">5</data>
+      <data key="v_closeness_percentRank">0.79</data>
+      <data key="v_closeness_averageRank">32.5</data>
+      <data key="v_closeness_reverseAverageRank">7.5</data>
+      <data key="v_pageRank_denseRank">28</data>
+      <data key="v_pageRank_reverseDenseRank">5</data>
+      <data key="v_pageRank_percentRank">0.89</data>
+      <data key="v_pageRank_averageRank">35</data>
+      <data key="v_pageRank_reverseAverageRank">5</data>
+      <data key="v_transitivity_denseRank">5</data>
+      <data key="v_transitivity_reverseDenseRank">15</data>
+      <data key="v_transitivity_percentRank">0.21</data>
+      <data key="v_transitivity_averageRank">9.5</data>
+      <data key="v_transitivity_reverseAverageRank">30.5</data>
+      <data key="v_triangleCount_denseRank">5</data>
+      <data key="v_triangleCount_reverseDenseRank">7</data>
+      <data key="v_triangleCount_percentRank">0.66</data>
+      <data key="v_triangleCount_averageRank">27.5</data>
+      <data key="v_triangleCount_reverseAverageRank">12.5</data>
+      <data key="v_knn_denseRank">8</data>
+      <data key="v_knn_reverseDenseRank">9</data>
+      <data key="v_knn_percentRank">0.47</data>
+      <data key="v_knn_averageRank">21</data>
+      <data key="v_knn_reverseAverageRank">19</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n28">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n28</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">28</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">10.8</data>
+      <data key="v_closeness">0.0122</data>
+      <data key="v_pageRank">0.0204</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">7.2</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">6</data>
+      <data key="v_betweenness_reverseDenseRank">32</data>
+      <data key="v_betweenness_percentRank">0.13</data>
+      <data key="v_betweenness_averageRank">6</data>
+      <data key="v_betweenness_reverseAverageRank">34</data>
+      <data key="v_closeness_denseRank">8</data>
+      <data key="v_closeness_reverseDenseRank">13</data>
+      <data key="v_closeness_percentRank">0.29</data>
+      <data key="v_closeness_averageRank">13</data>
+      <data key="v_closeness_reverseAverageRank">27</data>
+      <data key="v_pageRank_denseRank">5</data>
+      <data key="v_pageRank_reverseDenseRank">28</data>
+      <data key="v_pageRank_percentRank">0.11</data>
+      <data key="v_pageRank_averageRank">5.5</data>
+      <data key="v_pageRank_reverseAverageRank">34.5</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">8</data>
+      <data key="v_knn_reverseDenseRank">9</data>
+      <data key="v_knn_percentRank">0.47</data>
+      <data key="v_knn_averageRank">21</data>
+      <data key="v_knn_reverseAverageRank">19</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n29">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n29</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">29</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">25.3</data>
+      <data key="v_closeness">0.0127</data>
+      <data key="v_pageRank">0.0273</data>
+      <data key="v_transitivity">0.0476</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">6.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">28</data>
+      <data key="v_betweenness_reverseDenseRank">10</data>
+      <data key="v_betweenness_percentRank">0.74</data>
+      <data key="v_betweenness_averageRank">29.5</data>
+      <data key="v_betweenness_reverseAverageRank">10.5</data>
+      <data key="v_closeness_denseRank">11</data>
+      <data key="v_closeness_reverseDenseRank">10</data>
+      <data key="v_closeness_percentRank">0.45</data>
+      <data key="v_closeness_averageRank">18.5</data>
+      <data key="v_closeness_reverseAverageRank">21.5</data>
+      <data key="v_pageRank_denseRank">21</data>
+      <data key="v_pageRank_reverseDenseRank">12</data>
+      <data key="v_pageRank_percentRank">0.68</data>
+      <data key="v_pageRank_averageRank">27.5</data>
+      <data key="v_pageRank_reverseAverageRank">12.5</data>
+      <data key="v_transitivity_denseRank">2</data>
+      <data key="v_transitivity_reverseDenseRank">18</data>
+      <data key="v_transitivity_percentRank">0.05</data>
+      <data key="v_transitivity_averageRank">4</data>
+      <data key="v_transitivity_reverseAverageRank">36</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">3</data>
+      <data key="v_knn_reverseDenseRank">14</data>
+      <data key="v_knn_percentRank">0.11</data>
+      <data key="v_knn_averageRank">6.5</data>
+      <data key="v_knn_reverseAverageRank">33.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n30">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n30</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">30</data>
+      <data key="v_degree">8</data>
+      <data key="v_betweenness">37.2</data>
+      <data key="v_closeness">0.0132</data>
+      <data key="v_pageRank">0.031</data>
+      <data key="v_transitivity">0.179</data>
+      <data key="v_triangleCount">5</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">6</data>
+      <data key="v_degree_reverseDenseRank">4</data>
+      <data key="v_degree_percentRank">0.76</data>
+      <data key="v_degree_averageRank">32</data>
+      <data key="v_degree_reverseAverageRank">8</data>
+      <data key="v_betweenness_denseRank">33</data>
+      <data key="v_betweenness_reverseDenseRank">5</data>
+      <data key="v_betweenness_percentRank">0.89</data>
+      <data key="v_betweenness_averageRank">35</data>
+      <data key="v_betweenness_reverseAverageRank">5</data>
+      <data key="v_closeness_denseRank">14</data>
+      <data key="v_closeness_reverseDenseRank">7</data>
+      <data key="v_closeness_percentRank">0.58</data>
+      <data key="v_closeness_averageRank">25.5</data>
+      <data key="v_closeness_reverseAverageRank">14.5</data>
+      <data key="v_pageRank_denseRank">26</data>
+      <data key="v_pageRank_reverseDenseRank">7</data>
+      <data key="v_pageRank_percentRank">0.84</data>
+      <data key="v_pageRank_averageRank">33</data>
+      <data key="v_pageRank_reverseAverageRank">7</data>
+      <data key="v_transitivity_denseRank">10</data>
+      <data key="v_transitivity_reverseDenseRank">10</data>
+      <data key="v_transitivity_percentRank">0.5</data>
+      <data key="v_transitivity_averageRank">20.5</data>
+      <data key="v_transitivity_reverseAverageRank">19.5</data>
+      <data key="v_triangleCount_denseRank">6</data>
+      <data key="v_triangleCount_reverseDenseRank">6</data>
+      <data key="v_triangleCount_percentRank">0.76</data>
+      <data key="v_triangleCount_averageRank">32</data>
+      <data key="v_triangleCount_reverseAverageRank">8</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n31">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n31</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">31</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">14.1</data>
+      <data key="v_closeness">0.0116</data>
+      <data key="v_pageRank">0.021</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">7.2</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">11</data>
+      <data key="v_betweenness_reverseDenseRank">27</data>
+      <data key="v_betweenness_percentRank">0.26</data>
+      <data key="v_betweenness_averageRank">11</data>
+      <data key="v_betweenness_reverseAverageRank">29</data>
+      <data key="v_closeness_denseRank">5</data>
+      <data key="v_closeness_reverseDenseRank">16</data>
+      <data key="v_closeness_percentRank">0.13</data>
+      <data key="v_closeness_averageRank">7</data>
+      <data key="v_closeness_reverseAverageRank">33</data>
+      <data key="v_pageRank_denseRank">8</data>
+      <data key="v_pageRank_reverseDenseRank">25</data>
+      <data key="v_pageRank_percentRank">0.26</data>
+      <data key="v_pageRank_averageRank">11.5</data>
+      <data key="v_pageRank_reverseAverageRank">28.5</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">8</data>
+      <data key="v_knn_reverseDenseRank">9</data>
+      <data key="v_knn_percentRank">0.47</data>
+      <data key="v_knn_averageRank">21</data>
+      <data key="v_knn_reverseAverageRank">19</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n32">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n32</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">32</data>
+      <data key="v_degree">4</data>
+      <data key="v_betweenness">4.8</data>
+      <data key="v_closeness">0.0112</data>
+      <data key="v_pageRank">0.0171</data>
+      <data key="v_transitivity">0.167</data>
+      <data key="v_triangleCount">1</data>
+      <data key="v_knn">7.2</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">2</data>
+      <data key="v_degree_reverseDenseRank">8</data>
+      <data key="v_degree_percentRank">0.05</data>
+      <data key="v_degree_averageRank">3.5</data>
+      <data key="v_degree_reverseAverageRank">36.5</data>
+      <data key="v_betweenness_denseRank">3</data>
+      <data key="v_betweenness_reverseDenseRank">35</data>
+      <data key="v_betweenness_percentRank">0.05</data>
+      <data key="v_betweenness_averageRank">3</data>
+      <data key="v_betweenness_reverseAverageRank">37</data>
+      <data key="v_closeness_denseRank">3</data>
+      <data key="v_closeness_reverseDenseRank">18</data>
+      <data key="v_closeness_percentRank">0.08</data>
+      <data key="v_closeness_averageRank">4</data>
+      <data key="v_closeness_reverseAverageRank">36</data>
+      <data key="v_pageRank_denseRank">3</data>
+      <data key="v_pageRank_reverseDenseRank">30</data>
+      <data key="v_pageRank_percentRank">0.05</data>
+      <data key="v_pageRank_averageRank">3</data>
+      <data key="v_pageRank_reverseAverageRank">37</data>
+      <data key="v_transitivity_denseRank">9</data>
+      <data key="v_transitivity_reverseDenseRank">11</data>
+      <data key="v_transitivity_percentRank">0.45</data>
+      <data key="v_transitivity_averageRank">18.5</data>
+      <data key="v_transitivity_reverseAverageRank">21.5</data>
+      <data key="v_triangleCount_denseRank">2</data>
+      <data key="v_triangleCount_reverseDenseRank">10</data>
+      <data key="v_triangleCount_percentRank">0.05</data>
+      <data key="v_triangleCount_averageRank">7</data>
+      <data key="v_triangleCount_reverseAverageRank">33</data>
+      <data key="v_knn_denseRank">8</data>
+      <data key="v_knn_reverseDenseRank">9</data>
+      <data key="v_knn_percentRank">0.47</data>
+      <data key="v_knn_averageRank">21</data>
+      <data key="v_knn_reverseAverageRank">19</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n33">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n33</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">33</data>
+      <data key="v_degree">6</data>
+      <data key="v_betweenness">14.8</data>
+      <data key="v_closeness">0.0125</data>
+      <data key="v_pageRank">0.0237</data>
+      <data key="v_transitivity">0.133</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">7</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">4</data>
+      <data key="v_degree_reverseDenseRank">6</data>
+      <data key="v_degree_percentRank">0.32</data>
+      <data key="v_degree_averageRank">15</data>
+      <data key="v_degree_reverseAverageRank">25</data>
+      <data key="v_betweenness_denseRank">14</data>
+      <data key="v_betweenness_reverseDenseRank">24</data>
+      <data key="v_betweenness_percentRank">0.34</data>
+      <data key="v_betweenness_averageRank">14.5</data>
+      <data key="v_betweenness_reverseAverageRank">25.5</data>
+      <data key="v_closeness_denseRank">10</data>
+      <data key="v_closeness_reverseDenseRank">11</data>
+      <data key="v_closeness_percentRank">0.39</data>
+      <data key="v_closeness_averageRank">16.5</data>
+      <data key="v_closeness_reverseAverageRank">23.5</data>
+      <data key="v_pageRank_denseRank">10</data>
+      <data key="v_pageRank_reverseDenseRank">23</data>
+      <data key="v_pageRank_percentRank">0.34</data>
+      <data key="v_pageRank_averageRank">14</data>
+      <data key="v_pageRank_reverseAverageRank">26</data>
+      <data key="v_transitivity_denseRank">6</data>
+      <data key="v_transitivity_reverseDenseRank">14</data>
+      <data key="v_transitivity_percentRank">0.26</data>
+      <data key="v_transitivity_averageRank">11</data>
+      <data key="v_transitivity_reverseAverageRank">29</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">6</data>
+      <data key="v_knn_reverseDenseRank">11</data>
+      <data key="v_knn_percentRank">0.42</data>
+      <data key="v_knn_averageRank">17</data>
+      <data key="v_knn_reverseAverageRank">23</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n34">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n34</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">34</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">14.8</data>
+      <data key="v_closeness">0.0116</data>
+      <data key="v_pageRank">0.021</data>
+      <data key="v_transitivity">0.2</data>
+      <data key="v_triangleCount">2</data>
+      <data key="v_knn">6.6</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">14</data>
+      <data key="v_betweenness_reverseDenseRank">24</data>
+      <data key="v_betweenness_percentRank">0.34</data>
+      <data key="v_betweenness_averageRank">14.5</data>
+      <data key="v_betweenness_reverseAverageRank">25.5</data>
+      <data key="v_closeness_denseRank">5</data>
+      <data key="v_closeness_reverseDenseRank">16</data>
+      <data key="v_closeness_percentRank">0.13</data>
+      <data key="v_closeness_averageRank">7</data>
+      <data key="v_closeness_reverseAverageRank">33</data>
+      <data key="v_pageRank_denseRank">8</data>
+      <data key="v_pageRank_reverseDenseRank">25</data>
+      <data key="v_pageRank_percentRank">0.26</data>
+      <data key="v_pageRank_averageRank">11.5</data>
+      <data key="v_pageRank_reverseAverageRank">28.5</data>
+      <data key="v_transitivity_denseRank">12</data>
+      <data key="v_transitivity_reverseDenseRank">8</data>
+      <data key="v_transitivity_percentRank">0.58</data>
+      <data key="v_transitivity_averageRank">26</data>
+      <data key="v_transitivity_reverseAverageRank">14</data>
+      <data key="v_triangleCount_denseRank">3</data>
+      <data key="v_triangleCount_reverseDenseRank">9</data>
+      <data key="v_triangleCount_percentRank">0.29</data>
+      <data key="v_triangleCount_averageRank">14.5</data>
+      <data key="v_triangleCount_reverseAverageRank">25.5</data>
+      <data key="v_knn_denseRank">5</data>
+      <data key="v_knn_reverseDenseRank">12</data>
+      <data key="v_knn_percentRank">0.26</data>
+      <data key="v_knn_averageRank">13.5</data>
+      <data key="v_knn_reverseAverageRank">26.5</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n35">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n35</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">35</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">24.4</data>
+      <data key="v_closeness">0.0122</data>
+      <data key="v_pageRank">0.0278</data>
+      <data key="v_transitivity">0.143</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">6.3</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">25</data>
+      <data key="v_betweenness_reverseDenseRank">13</data>
+      <data key="v_betweenness_percentRank">0.66</data>
+      <data key="v_betweenness_averageRank">26</data>
+      <data key="v_betweenness_reverseAverageRank">14</data>
+      <data key="v_closeness_denseRank">8</data>
+      <data key="v_closeness_reverseDenseRank">13</data>
+      <data key="v_closeness_percentRank">0.29</data>
+      <data key="v_closeness_averageRank">13</data>
+      <data key="v_closeness_reverseAverageRank">27</data>
+      <data key="v_pageRank_denseRank">22</data>
+      <data key="v_pageRank_reverseDenseRank">11</data>
+      <data key="v_pageRank_percentRank">0.74</data>
+      <data key="v_pageRank_averageRank">29</data>
+      <data key="v_pageRank_reverseAverageRank">11</data>
+      <data key="v_transitivity_denseRank">8</data>
+      <data key="v_transitivity_reverseDenseRank">12</data>
+      <data key="v_transitivity_percentRank">0.32</data>
+      <data key="v_transitivity_averageRank">15</data>
+      <data key="v_transitivity_reverseAverageRank">25</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">3</data>
+      <data key="v_knn_reverseDenseRank">14</data>
+      <data key="v_knn_percentRank">0.11</data>
+      <data key="v_knn_averageRank">6.5</data>
+      <data key="v_knn_reverseAverageRank">33.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n36">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n36</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">36</data>
+      <data key="v_degree">8</data>
+      <data key="v_betweenness">25.3</data>
+      <data key="v_closeness">0.0137</data>
+      <data key="v_pageRank">0.0299</data>
+      <data key="v_transitivity">0.179</data>
+      <data key="v_triangleCount">5</data>
+      <data key="v_knn">7.5</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">6</data>
+      <data key="v_degree_reverseDenseRank">4</data>
+      <data key="v_degree_percentRank">0.76</data>
+      <data key="v_degree_averageRank">32</data>
+      <data key="v_degree_reverseAverageRank">8</data>
+      <data key="v_betweenness_denseRank">28</data>
+      <data key="v_betweenness_reverseDenseRank">10</data>
+      <data key="v_betweenness_percentRank">0.74</data>
+      <data key="v_betweenness_averageRank">29.5</data>
+      <data key="v_betweenness_reverseAverageRank">10.5</data>
+      <data key="v_closeness_denseRank">17</data>
+      <data key="v_closeness_reverseDenseRank">4</data>
+      <data key="v_closeness_percentRank">0.89</data>
+      <data key="v_closeness_averageRank">35.5</data>
+      <data key="v_closeness_reverseAverageRank">4.5</data>
+      <data key="v_pageRank_denseRank">24</data>
+      <data key="v_pageRank_reverseDenseRank">9</data>
+      <data key="v_pageRank_percentRank">0.79</data>
+      <data key="v_pageRank_averageRank">31</data>
+      <data key="v_pageRank_reverseAverageRank">9</data>
+      <data key="v_transitivity_denseRank">10</data>
+      <data key="v_transitivity_reverseDenseRank">10</data>
+      <data key="v_transitivity_percentRank">0.5</data>
+      <data key="v_transitivity_averageRank">20.5</data>
+      <data key="v_transitivity_reverseAverageRank">19.5</data>
+      <data key="v_triangleCount_denseRank">6</data>
+      <data key="v_triangleCount_reverseDenseRank">6</data>
+      <data key="v_triangleCount_percentRank">0.76</data>
+      <data key="v_triangleCount_averageRank">32</data>
+      <data key="v_triangleCount_reverseAverageRank">8</data>
+      <data key="v_knn_denseRank">11</data>
+      <data key="v_knn_reverseDenseRank">6</data>
+      <data key="v_knn_percentRank">0.74</data>
+      <data key="v_knn_averageRank">29.5</data>
+      <data key="v_knn_reverseAverageRank">10.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <node id="n37">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n37</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">37</data>
+      <data key="v_degree">5</data>
+      <data key="v_betweenness">13.2</data>
+      <data key="v_closeness">0.0115</data>
+      <data key="v_pageRank">0.0207</data>
+      <data key="v_transitivity">0.3</data>
+      <data key="v_triangleCount">3</data>
+      <data key="v_knn">7.6</data>
+      <data key="v_eccentricity">4</data>
+      <data key="v_degree_denseRank">3</data>
+      <data key="v_degree_reverseDenseRank">7</data>
+      <data key="v_degree_percentRank">0.11</data>
+      <data key="v_degree_averageRank">8.5</data>
+      <data key="v_degree_reverseAverageRank">31.5</data>
+      <data key="v_betweenness_denseRank">9</data>
+      <data key="v_betweenness_reverseDenseRank">29</data>
+      <data key="v_betweenness_percentRank">0.21</data>
+      <data key="v_betweenness_averageRank">9</data>
+      <data key="v_betweenness_reverseAverageRank">31</data>
+      <data key="v_closeness_denseRank">4</data>
+      <data key="v_closeness_reverseDenseRank">17</data>
+      <data key="v_closeness_percentRank">0.11</data>
+      <data key="v_closeness_averageRank">5</data>
+      <data key="v_closeness_reverseAverageRank">35</data>
+      <data key="v_pageRank_denseRank">7</data>
+      <data key="v_pageRank_reverseDenseRank">26</data>
+      <data key="v_pageRank_percentRank">0.18</data>
+      <data key="v_pageRank_averageRank">9</data>
+      <data key="v_pageRank_reverseAverageRank">31</data>
+      <data key="v_transitivity_denseRank">17</data>
+      <data key="v_transitivity_reverseDenseRank">3</data>
+      <data key="v_transitivity_percentRank">0.89</data>
+      <data key="v_transitivity_averageRank">35.5</data>
+      <data key="v_transitivity_reverseAverageRank">4.5</data>
+      <data key="v_triangleCount_denseRank">4</data>
+      <data key="v_triangleCount_reverseDenseRank">8</data>
+      <data key="v_triangleCount_percentRank">0.45</data>
+      <data key="v_triangleCount_averageRank">21.5</data>
+      <data key="v_triangleCount_reverseAverageRank">18.5</data>
+      <data key="v_knn_denseRank">12</data>
+      <data key="v_knn_reverseDenseRank">5</data>
+      <data key="v_knn_percentRank">0.79</data>
+      <data key="v_knn_averageRank">32.5</data>
+      <data key="v_knn_reverseAverageRank">7.5</data>
+      <data key="v_eccentricity_denseRank">2</data>
+      <data key="v_eccentricity_reverseDenseRank">1</data>
+      <data key="v_eccentricity_percentRank">0.84</data>
+      <data key="v_eccentricity_averageRank">36</data>
+      <data key="v_eccentricity_reverseAverageRank">4</data>
+    </node>
+    <node id="n38">
+      <data key="v_graphName">erdosrenyi39</data>
+      <data key="v_type">erdosrenyi</data>
+      <data key="v_community"></data>
+      <data key="v_version"></data>
+      <data key="v_id">n38</data>
+      <data key="v_totalNodes">39</data>
+      <data key="v_totalEdges">128</data>
+      <data key="v_communitySize"></data>
+      <data key="v_intra-degree"></data>
+      <data key="v_inter-degree"></data>
+      <data key="v_intra-degree_denseRank"></data>
+      <data key="v_intra-degree_reverseDenseRank"></data>
+      <data key="v_intra-degree_percentRank"></data>
+      <data key="v_intra-degree_averageRank"></data>
+      <data key="v_intra-degree_reverseAverageRank"></data>
+      <data key="v_inter-degree_denseRank"></data>
+      <data key="v_inter-degree_reverseDenseRank"></data>
+      <data key="v_inter-degree_percentRank"></data>
+      <data key="v_inter-degree_averageRank"></data>
+      <data key="v_inter-degree_reverseAverageRank"></data>
+      <data key="v_name">38</data>
+      <data key="v_degree">7</data>
+      <data key="v_betweenness">18.4</data>
+      <data key="v_closeness">0.0128</data>
+      <data key="v_pageRank">0.0268</data>
+      <data key="v_transitivity">0.238</data>
+      <data key="v_triangleCount">5</data>
+      <data key="v_knn">7.7</data>
+      <data key="v_eccentricity">3</data>
+      <data key="v_degree_denseRank">5</data>
+      <data key="v_degree_reverseDenseRank">5</data>
+      <data key="v_degree_percentRank">0.45</data>
+      <data key="v_degree_averageRank">23.5</data>
+      <data key="v_degree_reverseAverageRank">16.5</data>
+      <data key="v_betweenness_denseRank">17</data>
+      <data key="v_betweenness_reverseDenseRank">21</data>
+      <data key="v_betweenness_percentRank">0.45</data>
+      <data key="v_betweenness_averageRank">18</data>
+      <data key="v_betweenness_reverseAverageRank">22</data>
+      <data key="v_closeness_denseRank">12</data>
+      <data key="v_closeness_reverseDenseRank">9</data>
+      <data key="v_closeness_percentRank">0.5</data>
+      <data key="v_closeness_averageRank">20.5</data>
+      <data key="v_closeness_reverseAverageRank">19.5</data>
+      <data key="v_pageRank_denseRank">17</data>
+      <data key="v_pageRank_reverseDenseRank">16</data>
+      <data key="v_pageRank_percentRank">0.53</data>
+      <data key="v_pageRank_averageRank">21.5</data>
+      <data key="v_pageRank_reverseAverageRank">18.5</data>
+      <data key="v_transitivity_denseRank">14</data>
+      <data key="v_transitivity_reverseDenseRank">6</data>
+      <data key="v_transitivity_percentRank">0.79</data>
+      <data key="v_transitivity_averageRank">31.5</data>
+      <data key="v_transitivity_reverseAverageRank">8.5</data>
+      <data key="v_triangleCount_denseRank">6</data>
+      <data key="v_triangleCount_reverseDenseRank">6</data>
+      <data key="v_triangleCount_percentRank">0.76</data>
+      <data key="v_triangleCount_averageRank">32</data>
+      <data key="v_triangleCount_reverseAverageRank">8</data>
+      <data key="v_knn_denseRank">13</data>
+      <data key="v_knn_reverseDenseRank">4</data>
+      <data key="v_knn_percentRank">0.89</data>
+      <data key="v_knn_averageRank">35.5</data>
+      <data key="v_knn_reverseAverageRank">4.5</data>
+      <data key="v_eccentricity_denseRank">1</data>
+      <data key="v_eccentricity_reverseDenseRank">2</data>
+      <data key="v_eccentricity_percentRank">0</data>
+      <data key="v_eccentricity_averageRank">16.5</data>
+      <data key="v_eccentricity_reverseAverageRank">23.5</data>
+    </node>
+    <edge source="n3" target="n4">
+    </edge>
+    <edge source="n4" target="n6">
+    </edge>
+    <edge source="n5" target="n6">
+    </edge>
+    <edge source="n0" target="n7">
+    </edge>
+    <edge source="n3" target="n7">
+    </edge>
+    <edge source="n3" target="n8">
+    </edge>
+    <edge source="n4" target="n8">
+    </edge>
+    <edge source="n0" target="n9">
+    </edge>
+    <edge source="n1" target="n9">
+    </edge>
+    <edge source="n0" target="n10">
+    </edge>
+    <edge source="n7" target="n11">
+    </edge>
+    <edge source="n10" target="n11">
+    </edge>
+    <edge source="n5" target="n12">
+    </edge>
+    <edge source="n5" target="n13">
+    </edge>
+    <edge source="n8" target="n13">
+    </edge>
+    <edge source="n9" target="n13">
+    </edge>
+    <edge source="n6" target="n14">
+    </edge>
+    <edge source="n8" target="n14">
+    </edge>
+    <edge source="n12" target="n14">
+    </edge>
+    <edge source="n11" target="n15">
+    </edge>
+    <edge source="n8" target="n16">
+    </edge>
+    <edge source="n15" target="n16">
+    </edge>
+    <edge source="n0" target="n17">
+    </edge>
+    <edge source="n6" target="n17">
+    </edge>
+    <edge source="n12" target="n17">
+    </edge>
+    <edge source="n1" target="n18">
+    </edge>
+    <edge source="n5" target="n18">
+    </edge>
+    <edge source="n9" target="n18">
+    </edge>
+    <edge source="n4" target="n19">
+    </edge>
+    <edge source="n8" target="n19">
+    </edge>
+    <edge source="n9" target="n19">
+    </edge>
+    <edge source="n10" target="n19">
+    </edge>
+    <edge source="n13" target="n19">
+    </edge>
+    <edge source="n7" target="n20">
+    </edge>
+    <edge source="n14" target="n20">
+    </edge>
+    <edge source="n16" target="n20">
+    </edge>
+    <edge source="n19" target="n20">
+    </edge>
+    <edge source="n8" target="n21">
+    </edge>
+    <edge source="n0" target="n22">
+    </edge>
+    <edge source="n12" target="n22">
+    </edge>
+    <edge source="n15" target="n22">
+    </edge>
+    <edge source="n1" target="n23">
+    </edge>
+    <edge source="n3" target="n23">
+    </edge>
+    <edge source="n5" target="n23">
+    </edge>
+    <edge source="n12" target="n23">
+    </edge>
+    <edge source="n1" target="n24">
+    </edge>
+    <edge source="n5" target="n24">
+    </edge>
+    <edge source="n8" target="n24">
+    </edge>
+    <edge source="n18" target="n24">
+    </edge>
+    <edge source="n23" target="n24">
+    </edge>
+    <edge source="n0" target="n25">
+    </edge>
+    <edge source="n1" target="n25">
+    </edge>
+    <edge source="n6" target="n25">
+    </edge>
+    <edge source="n15" target="n25">
+    </edge>
+    <edge source="n17" target="n25">
+    </edge>
+    <edge source="n5" target="n26">
+    </edge>
+    <edge source="n7" target="n26">
+    </edge>
+    <edge source="n10" target="n26">
+    </edge>
+    <edge source="n13" target="n26">
+    </edge>
+    <edge source="n15" target="n26">
+    </edge>
+    <edge source="n9" target="n27">
+    </edge>
+    <edge source="n13" target="n27">
+    </edge>
+    <edge source="n14" target="n27">
+    </edge>
+    <edge source="n19" target="n27">
+    </edge>
+    <edge source="n22" target="n27">
+    </edge>
+    <edge source="n24" target="n27">
+    </edge>
+    <edge source="n25" target="n27">
+    </edge>
+    <edge source="n26" target="n27">
+    </edge>
+    <edge source="n8" target="n28">
+    </edge>
+    <edge source="n10" target="n28">
+    </edge>
+    <edge source="n14" target="n28">
+    </edge>
+    <edge source="n16" target="n28">
+    </edge>
+    <edge source="n18" target="n28">
+    </edge>
+    <edge source="n13" target="n29">
+    </edge>
+    <edge source="n16" target="n29">
+    </edge>
+    <edge source="n17" target="n29">
+    </edge>
+    <edge source="n18" target="n29">
+    </edge>
+    <edge source="n21" target="n29">
+    </edge>
+    <edge source="n26" target="n29">
+    </edge>
+    <edge source="n2" target="n30">
+    </edge>
+    <edge source="n16" target="n30">
+    </edge>
+    <edge source="n17" target="n30">
+    </edge>
+    <edge source="n19" target="n30">
+    </edge>
+    <edge source="n20" target="n30">
+    </edge>
+    <edge source="n25" target="n30">
+    </edge>
+    <edge source="n1" target="n31">
+    </edge>
+    <edge source="n2" target="n31">
+    </edge>
+    <edge source="n5" target="n31">
+    </edge>
+    <edge source="n30" target="n31">
+    </edge>
+    <edge source="n1" target="n32">
+    </edge>
+    <edge source="n4" target="n32">
+    </edge>
+    <edge source="n17" target="n32">
+    </edge>
+    <edge source="n3" target="n33">
+    </edge>
+    <edge source="n7" target="n33">
+    </edge>
+    <edge source="n12" target="n33">
+    </edge>
+    <edge source="n20" target="n33">
+    </edge>
+    <edge source="n27" target="n33">
+    </edge>
+    <edge source="n29" target="n33">
+    </edge>
+    <edge source="n1" target="n34">
+    </edge>
+    <edge source="n7" target="n34">
+    </edge>
+    <edge source="n11" target="n34">
+    </edge>
+    <edge source="n22" target="n34">
+    </edge>
+    <edge source="n4" target="n35">
+    </edge>
+    <edge source="n7" target="n35">
+    </edge>
+    <edge source="n30" target="n35">
+    </edge>
+    <edge source="n31" target="n35">
+    </edge>
+    <edge source="n32" target="n35">
+    </edge>
+    <edge source="n34" target="n35">
+    </edge>
+    <edge source="n1" target="n36">
+    </edge>
+    <edge source="n6" target="n36">
+    </edge>
+    <edge source="n9" target="n36">
+    </edge>
+    <edge source="n15" target="n36">
+    </edge>
+    <edge source="n16" target="n36">
+    </edge>
+    <edge source="n19" target="n36">
+    </edge>
+    <edge source="n20" target="n36">
+    </edge>
+    <edge source="n35" target="n36">
+    </edge>
+    <edge source="n2" target="n37">
+    </edge>
+    <edge source="n5" target="n37">
+    </edge>
+    <edge source="n8" target="n37">
+    </edge>
+    <edge source="n14" target="n37">
+    </edge>
+    <edge source="n24" target="n37">
+    </edge>
+    <edge source="n0" target="n38">
+    </edge>
+    <edge source="n6" target="n38">
+    </edge>
+    <edge source="n8" target="n38">
+    </edge>
+    <edge source="n13" target="n38">
+    </edge>
+    <edge source="n19" target="n38">
+    </edge>
+    <edge source="n21" target="n38">
+    </edge>
+    <edge source="n24" target="n38">
+    </edge>
+  </graph>
+</graphml>

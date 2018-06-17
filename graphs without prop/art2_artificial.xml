@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_community" for="node" attr.name="community" attr.type="double"/>
+  <key id="v_graphName" for="node" attr.name="graphName" attr.type="string"/>
+  <key id="v_type" for="node" attr.name="type" attr.type="string"/>
+  <key id="v_version" for="node" attr.name="version" attr.type="string"/>
+  <key id="e_intercommunity" for="edge" attr.name="intercommunity" attr.type="boolean"/>
+  <key id="e_intracommunity" for="edge" attr.name="intracommunity" attr.type="boolean"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">0</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n1">
+      <data key="v_name">101</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n2">
+      <data key="v_name">102</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n3">
+      <data key="v_name">103</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n4">
+      <data key="v_name">104</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n5">
+      <data key="v_name">105</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n6">
+      <data key="v_name">201</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n7">
+      <data key="v_name">202</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n8">
+      <data key="v_name">203</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n9">
+      <data key="v_name">204</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n10">
+      <data key="v_name">205</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n11">
+      <data key="v_name">301</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n12">
+      <data key="v_name">302</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n13">
+      <data key="v_name">303</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n14">
+      <data key="v_name">304</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n15">
+      <data key="v_name">305</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n16">
+      <data key="v_name">401</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n17">
+      <data key="v_name">402</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n18">
+      <data key="v_name">403</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n19">
+      <data key="v_name">404</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n20">
+      <data key="v_name">405</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n21">
+      <data key="v_name">501</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n22">
+      <data key="v_name">502</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n23">
+      <data key="v_name">503</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n24">
+      <data key="v_name">504</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n25">
+      <data key="v_name">505</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n26">
+      <data key="v_name">601</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n27">
+      <data key="v_name">602</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n28">
+      <data key="v_name">603</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n29">
+      <data key="v_name">604</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n30">
+      <data key="v_name">605</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n31">
+      <data key="v_name">701</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n32">
+      <data key="v_name">702</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n33">
+      <data key="v_name">703</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n34">
+      <data key="v_name">704</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n35">
+      <data key="v_name">705</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n36">
+      <data key="v_name">801</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n37">
+      <data key="v_name">802</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n38">
+      <data key="v_name">803</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n39">
+      <data key="v_name">804</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n40">
+      <data key="v_name">805</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n41">
+      <data key="v_name">901</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n42">
+      <data key="v_name">902</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n43">
+      <data key="v_name">903</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n44">
+      <data key="v_name">904</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n45">
+      <data key="v_name">905</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n46">
+      <data key="v_name">1001</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n47">
+      <data key="v_name">1002</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n48">
+      <data key="v_name">1003</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n49">
+      <data key="v_name">1004</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n50">
+      <data key="v_name">1005</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n51">
+      <data key="v_name">1101</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n52">
+      <data key="v_name">1102</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n53">
+      <data key="v_name">1103</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n54">
+      <data key="v_name">1104</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n55">
+      <data key="v_name">1105</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n56">
+      <data key="v_name">1201</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n57">
+      <data key="v_name">1202</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n58">
+      <data key="v_name">1203</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n59">
+      <data key="v_name">1204</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n60">
+      <data key="v_name">1205</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n61">
+      <data key="v_name">1</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n62">
+      <data key="v_name">2</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n63">
+      <data key="v_name">3</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n64">
+      <data key="v_name">4</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n65">
+      <data key="v_name">5</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n66">
+      <data key="v_name">6</data>
+      <data key="v_community">0</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n67">
+      <data key="v_name">106</data>
+      <data key="v_community">1</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n68">
+      <data key="v_name">206</data>
+      <data key="v_community">2</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n69">
+      <data key="v_name">306</data>
+      <data key="v_community">3</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n70">
+      <data key="v_name">406</data>
+      <data key="v_community">4</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n71">
+      <data key="v_name">506</data>
+      <data key="v_community">5</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n72">
+      <data key="v_name">606</data>
+      <data key="v_community">6</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n73">
+      <data key="v_name">706</data>
+      <data key="v_community">7</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n74">
+      <data key="v_name">806</data>
+      <data key="v_community">8</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n75">
+      <data key="v_name">906</data>
+      <data key="v_community">9</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n76">
+      <data key="v_name">1006</data>
+      <data key="v_community">10</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n77">
+      <data key="v_name">1106</data>
+      <data key="v_community">11</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <node id="n78">
+      <data key="v_name">1206</data>
+      <data key="v_community">12</data>
+      <data key="v_graphName">art2</data>
+      <data key="v_type">artificial</data>
+      <data key="v_version"></data>
+    </node>
+    <edge source="n0" target="n61">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n0" target="n62">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n0" target="n63">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n0" target="n64">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n0" target="n65">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n0" target="n66">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n67">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n2" target="n67">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n3" target="n5">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n3" target="n67">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n4" target="n67">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n5" target="n67">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n1" target="n61">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n6" target="n68">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n7" target="n68">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n8" target="n10">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n8" target="n68">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n9" target="n68">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n10" target="n68">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n6" target="n61">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n11" target="n69">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n12" target="n14">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n12" target="n69">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n13" target="n69">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n14" target="n69">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n15" target="n69">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n11" target="n62">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n16" target="n20">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n16" target="n70">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n17" target="n19">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n17" target="n70">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n18" target="n19">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n18" target="n70">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n19" target="n70">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n20" target="n70">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n16" target="n62">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n21" target="n24">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n21" target="n71">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n22" target="n25">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n22" target="n71">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n23" target="n25">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n23" target="n71">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n24" target="n25">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n24" target="n71">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n25" target="n71">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n21" target="n63">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n26" target="n28">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n26" target="n29">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n26" target="n30">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n26" target="n72">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n27" target="n29">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n27" target="n30">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n27" target="n72">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n28" target="n29">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n28" target="n30">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n28" target="n72">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n29" target="n30">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n29" target="n72">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n30" target="n72">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n26" target="n63">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n31" target="n32">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n31" target="n33">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n31" target="n34">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n31" target="n35">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n31" target="n73">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n32" target="n33">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n32" target="n34">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n32" target="n35">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n32" target="n73">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n33" target="n34">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n33" target="n35">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n33" target="n73">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n34" target="n35">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n34" target="n73">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n35" target="n73">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n31" target="n64">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n36" target="n37">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n36" target="n38">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n36" target="n39">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n36" target="n40">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n36" target="n74">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n37" target="n38">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n37" target="n39">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n37" target="n40">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n37" target="n74">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n38" target="n39">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n38" target="n40">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n38" target="n74">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n39" target="n40">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n39" target="n74">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n40" target="n74">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n36" target="n64">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n41" target="n42">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n41" target="n43">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n41" target="n44">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n41" target="n45">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n41" target="n75">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n42" target="n43">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n42" target="n44">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n42" target="n45">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n42" target="n75">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n43" target="n44">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n43" target="n45">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n43" target="n75">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n44" target="n45">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n44" target="n75">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n45" target="n75">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n41" target="n65">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n46" target="n47">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n46" target="n48">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n46" target="n49">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n46" target="n50">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n46" target="n76">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n47" target="n48">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n47" target="n49">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n47" target="n50">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n47" target="n76">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n48" target="n49">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n48" target="n50">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n48" target="n76">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n49" target="n50">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n49" target="n76">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n50" target="n76">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n46" target="n65">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n51" target="n52">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n51" target="n53">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n51" target="n54">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n51" target="n55">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n51" target="n77">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n52" target="n53">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n52" target="n54">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n52" target="n55">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n52" target="n77">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n53" target="n54">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n53" target="n55">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n53" target="n77">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n54" target="n55">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n54" target="n77">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n55" target="n77">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n51" target="n66">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+    <edge source="n56" target="n57">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n56" target="n58">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n56" target="n59">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n56" target="n60">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n56" target="n78">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n57" target="n58">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n57" target="n59">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n57" target="n60">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n57" target="n78">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n58" target="n59">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n58" target="n60">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n58" target="n78">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n59" target="n60">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n59" target="n78">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n60" target="n78">
+      <data key="e_intercommunity">true</data>
+      <data key="e_intracommunity">false</data>
+    </edge>
+    <edge source="n56" target="n66">
+      <data key="e_intercommunity">false</data>
+      <data key="e_intracommunity">true</data>
+    </edge>
+  </graph>
+</graphml>
