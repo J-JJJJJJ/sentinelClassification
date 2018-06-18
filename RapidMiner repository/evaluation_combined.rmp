@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="8.2.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="8.2.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve Tree_combined" width="90" x="45" y="340">
+        <parameter key="repository_entry" value="Tree_combined"/>
+      </operator>
+      <operator activated="true" class="multiply" compatibility="8.2.000" expanded="true" height="208" name="Multiply" width="90" x="179" y="340"/>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test1" width="90" x="45" y="34">
+        <parameter key="repository_entry" value="test graphs/test1"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (3)" width="90" x="179" y="34">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model" width="90" x="380" y="34">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test1 sent" width="90" x="514" y="34">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test2" width="90" x="45" y="136">
+        <parameter key="repository_entry" value="test graphs/test2"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal" width="90" x="179" y="136">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (2)" width="90" x="380" y="136">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test2 sent" width="90" x="514" y="136">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test3" width="90" x="45" y="238">
+        <parameter key="repository_entry" value="test graphs/test3"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (2)" width="90" x="179" y="238">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (3)" width="90" x="380" y="238">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test3 sent" width="90" x="514" y="238">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test4" width="90" x="45" y="595">
+        <parameter key="repository_entry" value="test graphs/test4"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (4)" width="90" x="179" y="595">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (4)" width="90" x="380" y="595">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test4 sent" width="90" x="514" y="595">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test5" width="90" x="45" y="697">
+        <parameter key="repository_entry" value="test graphs/test5"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (5)" width="90" x="179" y="697">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (5)" width="90" x="380" y="697">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test5 sent" width="90" x="514" y="697">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test6" width="90" x="45" y="799">
+        <parameter key="repository_entry" value="test graphs/test6"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (6)" width="90" x="179" y="799">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (6)" width="90" x="380" y="799">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test6 sent" width="90" x="514" y="799">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="8.2.000" expanded="true" height="68" name="Retrieve test7" width="90" x="45" y="901">
+        <parameter key="repository_entry" value="test graphs/test7"/>
+      </operator>
+      <operator activated="true" class="numerical_to_polynominal" compatibility="8.2.000" expanded="true" height="82" name="Numerical to Polynominal (7)" width="90" x="179" y="901">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="community"/>
+        <parameter key="attributes" value=""/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="numeric"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="real"/>
+        <parameter key="block_type" value="value_series"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_series_end"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="apply_model" compatibility="8.2.000" expanded="true" height="82" name="Apply Model (7)" width="90" x="380" y="901">
+        <list key="application_parameters"/>
+        <parameter key="create_view" value="false"/>
+      </operator>
+      <operator activated="true" class="filter_examples" compatibility="8.2.000" expanded="true" height="103" name="Test7 sent" width="90" x="514" y="901">
+        <parameter key="parameter_expression" value=""/>
+        <parameter key="condition_class" value="custom_filters"/>
+        <parameter key="invert_filter" value="false"/>
+        <list key="filters_list">
+          <parameter key="filters_entry_key" value="prediction(sentClass).matches.TRUE"/>
+        </list>
+        <parameter key="filters_logic_and" value="true"/>
+        <parameter key="filters_check_metadata" value="true"/>
+      </operator>
+      <connect from_op="Retrieve Tree_combined" from_port="output" to_op="Multiply" to_port="input"/>
+      <connect from_op="Multiply" from_port="output 1" to_op="Apply Model" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 2" to_op="Apply Model (2)" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 3" to_op="Apply Model (3)" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 4" to_op="Apply Model (4)" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 5" to_op="Apply Model (5)" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 6" to_op="Apply Model (6)" to_port="model"/>
+      <connect from_op="Multiply" from_port="output 7" to_op="Apply Model (7)" to_port="model"/>
+      <connect from_op="Retrieve test1" from_port="output" to_op="Numerical to Polynominal (3)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (3)" from_port="example set output" to_op="Apply Model" to_port="unlabelled data"/>
+      <connect from_op="Apply Model" from_port="labelled data" to_op="Test1 sent" to_port="example set input"/>
+      <connect from_op="Test1 sent" from_port="example set output" to_port="result 1"/>
+      <connect from_op="Retrieve test2" from_port="output" to_op="Numerical to Polynominal" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal" from_port="example set output" to_op="Apply Model (2)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Test2 sent" to_port="example set input"/>
+      <connect from_op="Test2 sent" from_port="example set output" to_port="result 2"/>
+      <connect from_op="Retrieve test3" from_port="output" to_op="Numerical to Polynominal (2)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (2)" from_port="example set output" to_op="Apply Model (3)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (3)" from_port="labelled data" to_op="Test3 sent" to_port="example set input"/>
+      <connect from_op="Test3 sent" from_port="example set output" to_port="result 3"/>
+      <connect from_op="Retrieve test4" from_port="output" to_op="Numerical to Polynominal (4)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (4)" from_port="example set output" to_op="Apply Model (4)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (4)" from_port="labelled data" to_op="Test4 sent" to_port="example set input"/>
+      <connect from_op="Test4 sent" from_port="example set output" to_port="result 4"/>
+      <connect from_op="Retrieve test5" from_port="output" to_op="Numerical to Polynominal (5)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (5)" from_port="example set output" to_op="Apply Model (5)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (5)" from_port="labelled data" to_op="Test5 sent" to_port="example set input"/>
+      <connect from_op="Test5 sent" from_port="example set output" to_port="result 5"/>
+      <connect from_op="Retrieve test6" from_port="output" to_op="Numerical to Polynominal (6)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (6)" from_port="example set output" to_op="Apply Model (6)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (6)" from_port="labelled data" to_op="Test6 sent" to_port="example set input"/>
+      <connect from_op="Test6 sent" from_port="example set output" to_port="result 6"/>
+      <connect from_op="Retrieve test7" from_port="output" to_op="Numerical to Polynominal (7)" to_port="example set input"/>
+      <connect from_op="Numerical to Polynominal (7)" from_port="example set output" to_op="Apply Model (7)" to_port="unlabelled data"/>
+      <connect from_op="Apply Model (7)" from_port="labelled data" to_op="Test7 sent" to_port="example set input"/>
+      <connect from_op="Test7 sent" from_port="example set output" to_port="result 7"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+      <portSpacing port="sink_result 4" spacing="0"/>
+      <portSpacing port="sink_result 5" spacing="0"/>
+      <portSpacing port="sink_result 6" spacing="0"/>
+      <portSpacing port="sink_result 7" spacing="0"/>
+      <portSpacing port="sink_result 8" spacing="0"/>
+    </process>
+  </operator>
+</process>
